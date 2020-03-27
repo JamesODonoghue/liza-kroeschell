@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3832f9505d8f2657a5396f73ba1142a8",
+    "revision": "3746a1520c430d848942deeb237313ac",
     "url": "/liza-kroeschell/index.html"
   },
   {
-    "revision": "188f1dbdaff5e08931a6",
-    "url": "/liza-kroeschell/static/css/main.8ebe535e.chunk.css"
+    "revision": "76f1429c8af5e132d85a",
+    "url": "/liza-kroeschell/static/css/main.c7437237.chunk.css"
   },
   {
     "revision": "8b2bc32f0d144fd94dc7",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/liza-kroeschell/static/js/2.24b8ea87.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "188f1dbdaff5e08931a6",
-    "url": "/liza-kroeschell/static/js/main.d619db40.chunk.js"
+    "revision": "76f1429c8af5e132d85a",
+    "url": "/liza-kroeschell/static/js/main.8cab7820.chunk.js"
   },
   {
     "revision": "dcc65b16ccb7a781696a",
