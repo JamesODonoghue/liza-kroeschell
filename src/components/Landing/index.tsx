@@ -41,7 +41,7 @@ function Landing() {
                     </p>
                 </div>
                 <div className="main-image">
-                    <img alt="beth-profile" src={photo}></img>
+                    <img alt="liza-profile" src={photo}></img>
                 </div>
             </section>
         </div>
