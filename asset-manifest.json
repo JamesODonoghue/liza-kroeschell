@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.4abf36b2.chunk.css",
-    "main.js": "/static/js/main.25a638a2.chunk.js",
-    "main.js.map": "/static/js/main.25a638a2.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ed8b7ab8.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ed8b7ab8.js.map",
-    "static/js/2.24b8ea87.chunk.js": "/static/js/2.24b8ea87.chunk.js",
-    "static/js/2.24b8ea87.chunk.js.map": "/static/js/2.24b8ea87.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.297f1c975b31c780027fddb440181e71.js": "/precache-manifest.297f1c975b31c780027fddb440181e71.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.4abf36b2.chunk.css.map": "/static/css/main.4abf36b2.chunk.css.map",
-    "static/js/2.24b8ea87.chunk.js.LICENSE.txt": "/static/js/2.24b8ea87.chunk.js.LICENSE.txt",
-    "static/media/Lines.png": "/static/media/Lines.e8832b9b.png",
-    "static/media/App.css": "/static/media/Vollkorn-SemiBold.20057d6c.ttf"
+    "main.css": "/liza-kroeschell/static/css/main.8ebe535e.chunk.css",
+    "main.js": "/liza-kroeschell/static/js/main.d619db40.chunk.js",
+    "main.js.map": "/liza-kroeschell/static/js/main.d619db40.chunk.js.map",
+    "runtime-main.js": "/liza-kroeschell/static/js/runtime-main.a2a56a61.js",
+    "runtime-main.js.map": "/liza-kroeschell/static/js/runtime-main.a2a56a61.js.map",
+    "static/js/2.24b8ea87.chunk.js": "/liza-kroeschell/static/js/2.24b8ea87.chunk.js",
+    "static/js/2.24b8ea87.chunk.js.map": "/liza-kroeschell/static/js/2.24b8ea87.chunk.js.map",
+    "index.html": "/liza-kroeschell/index.html",
+    "precache-manifest.3d4df85c75dfd6870eb0eb0ac71728ba.js": "/liza-kroeschell/precache-manifest.3d4df85c75dfd6870eb0eb0ac71728ba.js",
+    "service-worker.js": "/liza-kroeschell/service-worker.js",
+    "static/css/main.8ebe535e.chunk.css.map": "/liza-kroeschell/static/css/main.8ebe535e.chunk.css.map",
+    "static/js/2.24b8ea87.chunk.js.LICENSE.txt": "/liza-kroeschell/static/js/2.24b8ea87.chunk.js.LICENSE.txt",
+    "static/media/Lines.png": "/liza-kroeschell/static/media/Lines.e8832b9b.png",
+    "static/media/App.css": "/liza-kroeschell/static/media/Vollkorn-SemiBold.20057d6c.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.ed8b7ab8.js",
+    "static/js/runtime-main.a2a56a61.js",
     "static/js/2.24b8ea87.chunk.js",
-    "static/css/main.4abf36b2.chunk.css",
-    "static/js/main.25a638a2.chunk.js"
+    "static/css/main.8ebe535e.chunk.css",
+    "static/js/main.d619db40.chunk.js"
   ]
 }
