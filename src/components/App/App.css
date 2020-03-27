@@ -83,12 +83,6 @@ section {
     text-align: center;
 }
 
-h1,
-h2,
-h4 {
-    font-family: "Vollkorn-Semibold";
-}
-
 h1 {
     font-size: 3rem;
 }
@@ -121,7 +115,6 @@ p {
 }
 
 a {
-    font-family: "Vollkorn-SemiBold";
     text-decoration: none;
     font-size: 3rem;
     font-weight: 400;
@@ -180,12 +173,10 @@ form label {
 
 ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
-    font-family: "Vollkorn";
 }
 
 input {
     /* Chrome/Opera/Safari */
-    font-family: "Vollkorn";
 }
 
 .full {
@@ -210,7 +201,7 @@ button:hover {
 }
 
 button {
-    font-family: "Vollkorn";
+    font-family: "inherit";
     font-size: 2rem;
     font-weight: bold;
     padding: 1rem 5rem;
@@ -313,6 +304,7 @@ footer {
     }
 
     a {
+        font-family: "Vollkorn";
         text-decoration: none;
         font-size: 2rem;
         margin-right: 2em;

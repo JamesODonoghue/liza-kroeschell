@@ -29,9 +29,9 @@ class Navigation extends React.Component<any, any> {
                     <NavLink onClick={this.handleLinkClick} to={ROUTES.LANDING}>
                         Home
                     </NavLink>
-                    <NavLink onClick={this.handleLinkClick} to={ROUTES.ABOUT}>
+                    {/* <NavLink onClick={this.handleLinkClick} to={ROUTES.ABOUT}>
                         About
-                    </NavLink>
+                    </NavLink> */}
                     <NavLink onClick={this.handleLinkClick} to={ROUTES.MEDIA}>
                         Media
                     </NavLink>
