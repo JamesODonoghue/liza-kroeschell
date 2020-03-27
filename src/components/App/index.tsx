@@ -13,7 +13,7 @@ const App = () => {
         <Router>
             <Navigation />
             <main>
-                <Route path={ROUTES.LANDING} exact component={Landing} />
+                <Route path={ROUTES.LANDING} component={Landing} />
                 <Route path={ROUTES.ABOUT} component={About} />
                 <Route path={ROUTES.MEDIA} component={Media} />
             </main>
