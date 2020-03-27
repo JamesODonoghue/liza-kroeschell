@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3746a1520c430d848942deeb237313ac",
+    "revision": "f1eb4866c46de8a350cab8f26143f08d",
     "url": "/liza-kroeschell/index.html"
   },
   {
-    "revision": "76f1429c8af5e132d85a",
-    "url": "/liza-kroeschell/static/css/main.c7437237.chunk.css"
+    "revision": "8c6ab3c5ea9a6e5f8098",
+    "url": "/liza-kroeschell/static/css/main.78705423.chunk.css"
   },
   {
-    "revision": "8b2bc32f0d144fd94dc7",
-    "url": "/liza-kroeschell/static/js/2.24b8ea87.chunk.js"
+    "revision": "ae2ea8ac98faa9c666aa",
+    "url": "/liza-kroeschell/static/js/2.94273ef5.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/liza-kroeschell/static/js/2.24b8ea87.chunk.js.LICENSE.txt"
+    "url": "/liza-kroeschell/static/js/2.94273ef5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "76f1429c8af5e132d85a",
-    "url": "/liza-kroeschell/static/js/main.8cab7820.chunk.js"
+    "revision": "8c6ab3c5ea9a6e5f8098",
+    "url": "/liza-kroeschell/static/js/main.0ea12388.chunk.js"
   },
   {
     "revision": "dcc65b16ccb7a781696a",
