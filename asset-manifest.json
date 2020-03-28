@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/liza-kroeschell/static/css/main.78705423.chunk.css",
-    "main.js": "/liza-kroeschell/static/js/main.0ea12388.chunk.js",
-    "main.js.map": "/liza-kroeschell/static/js/main.0ea12388.chunk.js.map",
-    "runtime-main.js": "/liza-kroeschell/static/js/runtime-main.a2a56a61.js",
-    "runtime-main.js.map": "/liza-kroeschell/static/js/runtime-main.a2a56a61.js.map",
-    "static/js/2.94273ef5.chunk.js": "/liza-kroeschell/static/js/2.94273ef5.chunk.js",
-    "static/js/2.94273ef5.chunk.js.map": "/liza-kroeschell/static/js/2.94273ef5.chunk.js.map",
-    "index.html": "/liza-kroeschell/index.html",
-    "precache-manifest.09dd5cda246b50db3f716bfaf62670f4.js": "/liza-kroeschell/precache-manifest.09dd5cda246b50db3f716bfaf62670f4.js",
-    "service-worker.js": "/liza-kroeschell/service-worker.js",
-    "static/css/main.78705423.chunk.css.map": "/liza-kroeschell/static/css/main.78705423.chunk.css.map",
-    "static/js/2.94273ef5.chunk.js.LICENSE.txt": "/liza-kroeschell/static/js/2.94273ef5.chunk.js.LICENSE.txt",
-    "static/media/Lines.png": "/liza-kroeschell/static/media/Lines.e8832b9b.png",
-    "static/media/App.css": "/liza-kroeschell/static/media/Vollkorn-SemiBold.20057d6c.ttf"
+    "main.css": "/static/css/main.3fe0a125.chunk.css",
+    "main.js": "/static/js/main.f81d7bc2.chunk.js",
+    "main.js.map": "/static/js/main.f81d7bc2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ed8b7ab8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ed8b7ab8.js.map",
+    "static/js/2.94273ef5.chunk.js": "/static/js/2.94273ef5.chunk.js",
+    "static/js/2.94273ef5.chunk.js.map": "/static/js/2.94273ef5.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f2d31c0da04f2ef5b035063555a573a8.js": "/precache-manifest.f2d31c0da04f2ef5b035063555a573a8.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.3fe0a125.chunk.css.map": "/static/css/main.3fe0a125.chunk.css.map",
+    "static/js/2.94273ef5.chunk.js.LICENSE.txt": "/static/js/2.94273ef5.chunk.js.LICENSE.txt",
+    "static/media/Lines.png": "/static/media/Lines.e8832b9b.png",
+    "static/media/App.css": "/static/media/Vollkorn-SemiBold.20057d6c.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.a2a56a61.js",
+    "static/js/runtime-main.ed8b7ab8.js",
     "static/js/2.94273ef5.chunk.js",
-    "static/css/main.78705423.chunk.css",
-    "static/js/main.0ea12388.chunk.js"
+    "static/css/main.3fe0a125.chunk.css",
+    "static/js/main.f81d7bc2.chunk.js"
   ]
 }
