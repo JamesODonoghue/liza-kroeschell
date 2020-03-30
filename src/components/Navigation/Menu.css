@@ -1,8 +1,9 @@
-@import '../../hamburgers-master/dist/hamburgers.css';
+@import "../../hamburgers-master/dist/hamburgers.css";
 
 button.hamburger {
     background: none;
     align-self: flex-end;
+    width: unset;
 }
 
 button.hamburger:focus {

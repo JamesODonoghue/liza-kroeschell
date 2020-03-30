@@ -83,7 +83,7 @@ section {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 6rem;
 }
 
 h2 {
@@ -104,7 +104,6 @@ p {
 
 .header {
     display: flex;
-    align-items: center;
     justify-content: flex-end;
     color: var(--header-bg-color);
 }
@@ -330,7 +329,7 @@ footer {
 @media (min-width: 400px) and (max-width: 800px) {
     section {
         max-width: 100%;
-        margin: 5rem;
+        margin: 3rem;
     }
 }
 

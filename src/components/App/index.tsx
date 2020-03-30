@@ -16,7 +16,7 @@ import Media from "../Media"
 const App = () => {
     return (
         <Router>
-            <Navigation />
+            {/* <Navigation /> */}
             <Switch>
                 <Route exact path={ROUTES.LANDING} component={Landing} />
                 <Route path={ROUTES.ABOUT} component={About} />

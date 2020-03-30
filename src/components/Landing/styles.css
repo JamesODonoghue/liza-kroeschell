@@ -1,5 +1,5 @@
 .landing {
-    height: 50vh;
+    height: 70vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -15,12 +15,20 @@
 }
 
 .landing h1 {
-    font-size: 5rem;
-    font-weight: bold;
+    font-size: 9rem;
+    font-weight: lighter;
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.headshot-credit {
+    color: #fff;
+    text-align: end;
+    margin-top: -3rem;
+    margin-right: 3rem;
 }
 
 .landing-content {
@@ -34,8 +42,14 @@ h3 {
 }
 
 .testimonials {
-    max-width: 600px;
-    margin: auto;
+    margin: 0;
+    padding: 5rem;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--tertiary-color);
+    flex-direction: column;
 }
 
 .testimonials img {
@@ -48,6 +62,35 @@ img {
     height: auto;
     max-width: 100%;
     border-radius: 3rem;
+}
+
+.testimonial {
+    max-width: 600px;
+    /* box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2); */
+}
+
+.teaching-philosophy .content {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.teaching-philosophy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15rem 2rem;
+}
+
+.teaching-philosophy div {
+    max-width: 300px;
+    text-align: center;
+}
+
+.card {
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
 .bio img {
@@ -90,8 +133,7 @@ section.blue {
 }
 
 .zoom-section {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    margin: 3rem;
 }
 
 .bio-header {
@@ -104,15 +146,14 @@ section.blue {
 @media (min-width: 600px) {
     .landing {
         background-size: 100%;
-        margin-top: 4rem;
         padding-top: 10rem;
-        padding-left: 15rem;
+        padding-left: 10rem;
         align-items: flex-start;
     }
 
     .zoom-section {
         max-width: 600px;
-        margin: auto;
+        margin: 15rem auto;
     }
 
     .bio {
