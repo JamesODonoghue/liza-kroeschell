@@ -24,7 +24,6 @@ class Navigation extends React.Component<any, any> {
         const { isOpen } = this.state
         return (
             <header className="header">
-                <h1>Liza Kroeschell</h1>
                 <div className={`navbar ${isOpen ? "open" : ""}`}>
                     <NavLink onClick={this.handleLinkClick} to={ROUTES.LANDING}>
                         Home

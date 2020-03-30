@@ -6,27 +6,26 @@
 
 @font-face {
     font-family: "Vollkorn";
-    src: local("Vollkorn"), url(../../fonts/Vollkorn/Vollkorn-Regular.ttf) format("truetype");
+    src: local("Vollkorn"), url(../../assets/fonts/Vollkorn/Vollkorn-Regular.ttf) format("truetype");
 }
 
 @font-face {
     font-family: "Vollkorn-SemiBold";
-    src: local("Vollkorn-Semibold"), url(../../fonts/Vollkorn/Vollkorn-SemiBold.ttf) format("truetype");
+    src: local("Vollkorn-Semibold"), url(../../assets/fonts/Vollkorn/Vollkorn-SemiBold.ttf) format("truetype");
 }
 
 @font-face {
     font-family: "Vollkorn-Bold";
-    src: local("Vollkorn-Bold"), url(../../fonts/Vollkorn/Vollkorn-Bold.ttf) format("truetype");
+    src: local("Vollkorn-Bold"), url(../../assets/fonts/Vollkorn/Vollkorn-Bold.ttf) format("truetype");
 }
 
 @font-face {
     font-family: "OpenSans";
-    src: local("OpenSans"), url(../../fonts/Open_Sans/OpenSans-Regular.ttf) format("truetype");
+    src: local("OpenSans"), url(../../assets/fonts/Open_Sans/OpenSans-Regular.ttf) format("truetype");
 }
 
 html,
 body {
-    font-family: "Vollkorn", "sans-serif";
     font-size: 8px;
     color: var(--header-bg-color);
 }
@@ -41,7 +40,7 @@ footer {
 }
 
 section {
-    margin: 2em;
+    padding: 2rem;
 }
 
 .header,
@@ -105,8 +104,8 @@ p {
 
 .header {
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: flex-end;
     color: var(--header-bg-color);
 }
 
@@ -201,16 +200,16 @@ button:hover {
 }
 
 button {
-    font-family: "inherit";
     font-size: 2rem;
     font-weight: bold;
-    padding: 1rem 5rem;
+    padding: 2rem 5rem;
     border-radius: 5px;
     border: 2px solid var(--button-color);
     background: var(--button-color);
     color: #fff;
     transition: all 100ms;
     cursor: pointer;
+    width: 100%;
 }
 
 form button {
@@ -263,12 +262,15 @@ footer {
         width: 100%;
         background: #fff;
         top: 0;
+        padding: 3rem;
+        box-sizing: border-box;
     }
 
     section {
-        max-width: 800px;
-        margin: auto;
-        margin-bottom: 15rem;
+        /* display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; */
     }
 
     .section-landing {
@@ -304,7 +306,6 @@ footer {
     }
 
     a {
-        font-family: "Vollkorn";
         text-decoration: none;
         font-size: 2rem;
         margin-right: 2em;

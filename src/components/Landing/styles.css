@@ -1,0 +1,122 @@
+.landing {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: #2d9ab7; */
+    background-size: 175%;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    margin: 0;
+    color: #fff;
+    background-image: url("../../assets/photos/IMG_0039-6.jpg");
+    padding: 3rem;
+}
+
+.landing h1 {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.landing-content {
+    max-width: 600px;
+    margin-bottom: 5rem;
+    color: #000;
+}
+
+.landing-content h2 {
+    text-align: center;
+}
+
+.testimonials {
+    max-width: 600px;
+    margin: auto;
+}
+
+.testimonials img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    border-radius: 3rem;
+}
+
+.bio img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: 75%;
+    border: 1rem solid #fff;
+}
+
+section.blue {
+    background-color: #2d9ab7;
+    margin: 0;
+    color: #fff;
+    height: 100%;
+}
+
+.bio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    column-gap: 5rem;
+    max-width: 1600px;
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    column-gap: 5rem;
+    max-width: 1600px;
+}
+
+.bio-item h4 {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.bio-item {
+    padding: 3rem;
+}
+
+.zoom-section {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.bio-header {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 600px) {
+    .landing {
+        background-size: 100%;
+        margin-top: 4rem;
+        padding-top: 10rem;
+        padding-left: 15rem;
+        align-items: flex-start;
+    }
+
+    .zoom-section {
+        max-width: 600px;
+        margin: auto;
+    }
+
+    .bio {
+        max-width: 1200px;
+        margin: auto;
+    }
+}

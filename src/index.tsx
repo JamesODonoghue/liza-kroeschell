@@ -11,10 +11,11 @@ import {
 } from "react-router-dom"
 import { ROUTES } from "./constants/routes"
 import ComingSoon from "./components/ComingSoon"
+import Landing from "./components/Landing"
 ReactDOM.render(
     <Router>
         <Switch>
-            <Route exact path={ROUTES.LANDING} component={ComingSoon} />
+            <Route exact path={ROUTES.LANDING} component={App} />
             {/* <Route path={ROUTES.ABOUT} component={About} /> */}
         </Switch>
     </Router>,

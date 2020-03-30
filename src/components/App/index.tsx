@@ -22,7 +22,7 @@ const App = () => {
                 <Route path={ROUTES.ABOUT} component={About} />
                 <Route path={ROUTES.MEDIA} component={Media} />
             </Switch>
-            <Footer />
+            {/* <Footer /> */}
         </Router>
     )
 }

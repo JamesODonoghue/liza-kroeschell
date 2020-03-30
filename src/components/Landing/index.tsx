@@ -1,47 +1,137 @@
 import React from "react"
 import photo from "../../Lines.png"
+import LizaClass from "../../assets/photos/IMG_8919.jpg"
+import LizaBio from "../../assets/photos/IMG_0039-6.jpg"
+
+import "./styles.css"
 
 function Landing() {
     return (
         <div>
-            <section className="section-landing">
-                <div
-                    className="main-content__body"
-                    style={{ maxWidth: "600px" }}
-                >
-                    <h2>Dancer. Teacher. Artist. </h2>
-                    <p>
-                        Beth is serving her 6th term in the Iowa House of
-                        Representatives. She is Ranking member of the Human
-                        Resources Committee. She also serves on the Public
-                        Safety and Environmental Protection committees, and the
-                        Health and Human Services Appropriations Subcommittee.
-                    </p>
-                    <p>
-                        Beth is married to Tom Kroeschell. He is the program
-                        director for CycloneTV. They have two children, Liza and
-                        Robbie.
-                    </p>
-                    <p>
-                        Beth was born and raised in Ames. Following graduation
-                        from Ames High, she earned her BA from the University of
-                        Northern Iowa, and her MPA from Iowa State University.
-                    </p>
-                    <p>
-                        Beth is a former high school English teacher and has
-                        done substantial work in non-profit administration. She
-                        was on the board of ACCESS, a battered women’s shelter,
-                        for four years and served as their president. She was
-                        chair of the Story County Equal Rights Amendment
-                        campaign in 1992. Beth has also served on her church
-                        council in various capacities, served on the Planned
-                        Parenthood Community Council in 1994, and worked for the
-                        Iowa Farmers Union and the Association of Boards of
-                        Certification.
-                    </p>
+            <div className="landing">
+                <div>
+                    <h1>I'm Ms. Liza</h1>
+                    <h3>
+                        I teach dance to children in the San Francisco Bay Area
+                    </h3>
+                    {/* <h4>SAN FRANCISCO BAY AREA DANCE TEACHING ARTIST</h4> */}
                 </div>
-                <div className="main-image">
-                    <img alt="liza-profile" src={photo}></img>
+            </div>
+            <section className="zoom-section">
+                <h2>CALLING ALL KIDS!</h2>
+                <p>
+                    Ms. Liza will offer fun, 35-minute dance classes on Zoom
+                    from March 30-April 4 at 4pm Pacfic Time.
+                </p>
+                <p>
+                    Get the wiggles out after staying home safe all day! No
+                    previous dance experience necessary. Find a safe space to
+                    move and follow the Zoom link below!
+                </p>
+                <p>
+                    <b>Ages 5-10: Monday, Wednesday, Friday</b>
+                </p>
+                <p>
+                    <b>Ages 3-7: Tuesday, Thursday</b>
+                </p>
+                <p>Venmo donations @LizaKroeschell appreciated</p>
+                <a href="mailto:liza.kroeschell@gmail.com?subject=Zoom Dance Class">
+                    <button>Email me for the Zoom Link!</button>
+                </a>
+            </section>
+            {/* <section className="testimonials">
+                <div>
+                    <h1>Teacher endorsment</h1>
+                </div>
+                <div className="testimonial-grid">
+                    <div>
+                        <img
+                            src={LizaClass}
+                            className="testimonial-photo"
+                        ></img>
+                    </div>
+                    <div className="testimonial">
+                        <p>
+                            "The 5-6 year olds at our public school in San
+                            Francisco absolutely cherished our dance classes
+                            with Ms. Liza. She created a fun environment for
+                            students to actively engage and express themselves.
+                            So many smiles and an energy of pure joy filled the
+                            room. She taught children how to count beats and
+                            listen to music, too. The children worked solo and
+                            often times with a partner. These two approaches
+                            gave the children the opportunity to be brave on
+                            their own as well as cooperative with others. I can
+                            honestly say, the children made several new friends
+                            in the dance class"
+                        </p>
+                        <p>~Collen Wentworth, Kindergarten teacher</p>
+                    </div>
+                </div>
+            </section> */}
+            <section className="blue">
+                <div className="bio">
+                    <div className="bio-header">
+                        <h1>About Me</h1>
+                        <img src={LizaBio}></img>
+                    </div>
+                    <div className="bio-grid">
+                        <div className="bio-item">
+                            <h4>
+                                Studious dancer with professional performance
+                                experience.
+                            </h4>
+                            <p>
+                                Liza Kroeschell is a Bay Area dancer and dance
+                                teacher born and raised in Iowa. She graduated
+                                summa cum laude from the Lines Ballet BFA
+                                program at Dominican University of California in
+                                2015, and has since performed locally with
+                                Bellwether Dance Project, dawsondancesf, .flee
+                                dance, and the movement choir of Garrett +
+                                Moulton Productions, among others. She has also
+                                performed in her hometown as a guest principal
+                                dancer in Iowa State Center’s The Nutcracker.
+                            </p>
+                        </div>
+                        <div className="bio-item">
+                            <h4>
+                                Skilled educator who trained with the best in
+                                the field.
+                            </h4>
+                            <p>
+                                Liza discovered a passion for teaching in 2012
+                                while training under Ms. Corrine Nagata of
+                                Nagata Dance, an organization that partners with
+                                San Francisco elementary schools to provide
+                                recreational dance education. Ms. Nagata's way
+                                of inspiring excellence in her students inspired
+                                Liza to co-author an essay with Ms. Nagata about
+                                her teaching methods, which was published in
+                                2017 as the final chapter of the book, Dance
+                                Pedagogy for a Diverse World: Culturally
+                                Relevant Theory, Research, and Practice.
+                            </p>
+                        </div>
+                        <div className="bio-item">
+                            <h4>
+                                Passionate professional teaching children to
+                                dance in San Francisco.
+                            </h4>
+                            <p>
+                                Liza is now a senior teacher with Nagata Dance..
+                                Each year, she prepares a group of students to
+                                perform in the Southwest Airlines Chinese New
+                                Year Parade. In 2018, her students at Commodore
+                                Sloat Elementary earned second place in the
+                                parade! In addition to her work in public and
+                                private elementary schools through Nagata Dance,
+                                Liza is a dance teacher on faculty at the Jewish
+                                Community Center of San Francisco and Geary
+                                Dance Center.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>
