@@ -1,7 +1,7 @@
 import React from "react"
 import photo from "../../Lines.png"
 import LizaClass from "../../assets/photos/IMG_8919.jpg"
-import LizaBio from "../../assets/photos/IMG_0039-6-2.jpg"
+import LizaBio from "../../assets/photos/IMG_0039-6.jpg"
 
 import "./styles.css"
 
