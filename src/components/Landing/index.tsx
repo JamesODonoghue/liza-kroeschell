@@ -44,7 +44,7 @@ function Landing() {
                     </a>
                 </div>
             </section>
-            <section className="testimonials" style={{ height: "50vh" }}>
+            <section className="testimonials">
                 <div>
                     <h1>Classroom teacher endorsment</h1>
                 </div>
