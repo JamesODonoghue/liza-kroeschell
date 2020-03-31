@@ -27,6 +27,7 @@ jobs:
       run: |
         git config --global user.email "jodonogh1@gmail.com"
         git config --global user.name "James O'Donoghue"
+        git remote set-url origin https://713803c2b0fd8e131ec010be299f284f44d669af@github.com/JamesODonoghue/liza-kroeschell.git
         npm run deploy
       env:
         CI: true
