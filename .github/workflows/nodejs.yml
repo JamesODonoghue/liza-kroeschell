@@ -23,6 +23,10 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm install
-    - run: npm run deploy
+    - name: Deploy to GH Pages
+      run: |
+        git config --global user.email "jodonogh1@gmail.com>"
+        git config --global user.name "jamesodonoghue>"
+        npm run deploy
       env:
         CI: true
