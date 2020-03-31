@@ -1,8 +1,5 @@
 import React from "react"
-import photo from "../../Lines.png"
-import LizaClass from "../../assets/photos/IMG_8919.jpg"
 import LizaBio from "../../assets/photos/IMG_0039-6.jpg"
-
 import "./styles.css"
 
 function Landing() {
@@ -102,7 +99,7 @@ function Landing() {
                 <div className="bio">
                     <div className="bio-header">
                         <h1>About Me</h1>
-                        <img src={LizaBio}></img>
+                        <img alt="profile" src={LizaBio}></img>
                     </div>
                     <div className="bio-grid">
                         <div className="bio-item">

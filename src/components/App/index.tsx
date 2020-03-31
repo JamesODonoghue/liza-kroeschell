@@ -1,15 +1,10 @@
 import React from "react"
 import "./App.css"
-import {
-    BrowserRouter as Router,
-    Route,
-    Switch,
-    Redirect
-} from "react-router-dom"
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 import { ROUTES } from "../../constants/routes"
 import About from "../About"
-import Navigation from "../Navigation"
-import Footer from "../Footer"
+// import Navigation from "../Navigation"
+// import Footer from "../Footer"
 import Landing from "../Landing"
 import Media from "../Media"
 
