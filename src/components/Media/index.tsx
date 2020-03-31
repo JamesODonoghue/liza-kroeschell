@@ -7,19 +7,54 @@ class Media extends React.Component {
                     <h1>Media</h1>
                 </div>
                 <div className="main-content__body">
-                    <article>
-                        <iframe
-                            style={{
-                                border: 0,
-                                width: "100%",
-                                height: "400px"
-                            }}
-                            title="me-video"
-                            src="https://www.youtube.com/embed/yBcIFWWU-dc?vq=hd1080"
-                            width="560"
-                            height="315"
-                        ></iframe>
-                    </article>
+                    <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/woRRcl5-7mo"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    ></iframe>
+                    <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/761Ah9h4U-o"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    ></iframe>
+                    <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/Zcmved0uM_E?start=1481"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    ></iframe>
+                    <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/OJItiWIscSA"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    ></iframe>
+                    <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/NKEFrH_wTEo"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    ></iframe>
+                    <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/t7khV6OqL6Q"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    ></iframe>
+                    <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/kSUXULbY3Jc"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    ></iframe>
+                    <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/bdjq-_6Mvvw"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    ></iframe>
                 </div>
             </section>
         )
