@@ -1,9 +1,8 @@
 import React from "react"
-import LizaBio from "../../assets/photos/IMG_0039-6.jpg"
-import "./styles.css"
 import { TeachingPhilosophy } from "../TeachingPhilosophy"
 import { About } from "../About"
 import { ZoomClass } from "../ZoomClass"
+import "./styles.css"
 
 function Landing() {
     return (
@@ -17,11 +16,12 @@ function Landing() {
                     {/* <h4>SAN FRANCISCO BAY AREA DANCE TEACHING ARTIST</h4> */}
                 </div>
             </div>
+
             <p className="headshot-credit">Headshot by Rob Kunkle, GoodLux</p>
             <ZoomClass />
             <section className="testimonials">
                 <div>
-                    <h1>Classroom teacher endorsment</h1>
+                    <h1>"An Energy of Pure Joy"</h1>
                 </div>
                 <div className="testimonial">
                     <p>
@@ -48,7 +48,6 @@ function Landing() {
                         </b>
                     </p>
                 </div>
-                a
             </section>
             <TeachingPhilosophy />
             <About />

@@ -1,5 +1,5 @@
 import React from "react"
-import LizaBio from "../../assets/photos/headshot_preview.jpg"
+import LizaBio from "../../assets/photos/headshot_small.jpg"
 export const About = () => (
     <section className="blue">
         <div className="bio">

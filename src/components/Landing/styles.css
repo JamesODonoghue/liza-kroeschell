@@ -4,13 +4,12 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    /* background-color: #2d9ab7; */
-    background-size: 175%;
+    background-size: cover;
     background-repeat: no-repeat;
     box-sizing: border-box;
     margin: 0;
     color: #fff;
-    background-image: url("../../assets/photos/IMG_0039-6.jpg");
+    background-image: url("../../assets/photos/headshot.jpg");
     padding: 3rem;
 }
 
@@ -41,9 +40,16 @@ h3 {
     text-align: center;
 }
 
+.photo-container {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    justify-content: center;
+}
+
 .testimonials {
     margin: 0;
-    padding: 5rem;
     max-width: 100%;
     display: flex;
     justify-content: center;
@@ -61,7 +67,6 @@ h3 {
 img {
     height: auto;
     max-width: 100%;
-    border-radius: 3rem;
 }
 
 .testimonial {
@@ -131,14 +136,6 @@ section.blue {
     font-style: italic;
 }
 
-.bio-item {
-    padding: 3rem;
-}
-
-.zoom-section {
-    margin: 3rem;
-}
-
 .bio-header {
     display: flex;
     justify-content: space-evenly;
@@ -146,9 +143,17 @@ section.blue {
     align-items: center;
 }
 
-@media (min-width: 600px) {
+.album {
+    background-color: var(--button-color);
+}
+
+.album_title {
+    color: #fff;
+    text-align: center;
+}
+
+@media (min-width: 1066px) {
     .landing {
-        background-size: 100%;
         padding-top: 10rem;
         padding-left: 10rem;
         align-items: flex-start;
@@ -162,5 +167,51 @@ section.blue {
     .bio {
         max-width: 1200px;
         margin: auto;
+    }
+
+    .album {
+        display: flex;
+        flex-direction: column;
+    }
+    img {
+        max-width: 600px;
+    }
+
+    .photo-container {
+        flex-direction: row;
+    }
+
+    .photo-container img {
+        filter: brightness(0.5);
+    }
+    .album h1 {
+        text-align: center;
+        color: #fff;
+    }
+
+    .photo-container p {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .photo_title {
+        margin-right: -10rem;
+        z-index: 9;
+        max-width: 350px;
+    }
+
+    .photo_title_2 {
+        margin-left: -10rem;
+        z-index: 9;
+        max-width: 350px;
+    }
+
+    .album_title {
+        font-size: 10rem;
+    }
+
+    .testimonials,
+    .album {
+        padding: 20rem 0;
     }
 }
