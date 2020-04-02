@@ -1,5 +1,5 @@
 .landing {
-    height: 70vh;
+    height: 80vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -111,7 +111,7 @@ section.blue {
     margin: 0;
     color: #fff;
     height: 100%;
-    padding: 8rem 0;
+    padding: 8rem 2rem;
 }
 
 .bio-grid {
@@ -151,6 +151,7 @@ section.blue {
 
 @media (min-width: 600px) {
     .landing {
+        margin-top: 6rem;
         padding-top: 10rem;
         align-items: flex-start;
     }
