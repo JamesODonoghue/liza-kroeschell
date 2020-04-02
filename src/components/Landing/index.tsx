@@ -3,6 +3,7 @@ import { TeachingPhilosophy } from "../TeachingPhilosophy"
 import { About } from "../About"
 import { ZoomClass } from "../ZoomClass"
 import "./styles.css"
+import { Experience } from "../Experience"
 
 function Landing() {
     return (
@@ -51,6 +52,7 @@ function Landing() {
             </section>
             <TeachingPhilosophy />
             <About />
+            <Experience />
         </div>
     )
 }

@@ -22,7 +22,7 @@ export const ZoomClass = () => (
 
         <div style={{ marginTop: "7rem" }}>
             <a href="mailto:liza.kroeschell@gmail.com?subject=Zoom Dance Class">
-                <button>Email me for the Zoom Link!</button>
+                <button>Email me for the Zoom link</button>
             </a>
         </div>
     </section>

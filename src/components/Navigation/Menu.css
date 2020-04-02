@@ -4,14 +4,15 @@ button.hamburger {
     background: none;
     align-self: flex-end;
     width: unset;
+    z-index: 10;
 }
 
 button.hamburger:focus {
     outline-width: 0;
 }
 
-.hamburger {
-    /* padding: 0; */
+.navbar {
+    z-index: 9;
 }
 
 @media (min-width: 600px) {

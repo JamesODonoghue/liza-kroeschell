@@ -11,16 +11,12 @@
     color: #fff;
     background-image: url("../../assets/photos/headshot.jpg");
     padding: 3rem;
+    background-position: 40%;
 }
 
 .landing h1 {
-    font-size: 9rem;
+    font-size: 5rem;
     font-weight: lighter;
-}
-
-h3 {
-    font-size: 3rem;
-    font-weight: 300;
 }
 
 .headshot-credit {
@@ -85,7 +81,6 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 15rem 2rem;
 }
 
 .teaching-philosophy div {
@@ -119,7 +114,7 @@ section.blue {
 
 .bio-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     column-gap: 5rem;
     max-width: 1600px;
 }
@@ -157,6 +152,10 @@ section.blue {
         padding-top: 10rem;
         padding-left: 10rem;
         align-items: flex-start;
+    }
+
+    .landing h1 {
+        font-size: 7rem;
     }
 
     .zoom-section {
