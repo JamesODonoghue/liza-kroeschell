@@ -71,16 +71,17 @@ img {
 
 .teaching-philosophy .content {
     display: flex;
-    max-width: 1000px;
+    min-width: 70%;
     margin: auto;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .teaching-philosophy {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 8rem 0;
 }
 
 .teaching-philosophy div {
@@ -110,6 +111,7 @@ section.blue {
     margin: 0;
     color: #fff;
     height: 100%;
+    padding: 8rem 0;
 }
 
 .bio-grid {
@@ -147,20 +149,21 @@ section.blue {
     text-align: center;
 }
 
-@media (min-width: 1066px) {
+@media (min-width: 600px) {
     .landing {
         padding-top: 10rem;
-        padding-left: 10rem;
         align-items: flex-start;
     }
 
     .landing h1 {
         font-size: 7rem;
     }
+}
 
+@media (min-width: 1066px) {
     .zoom-section {
         max-width: 600px;
-        margin: 15rem auto;
+        margin: auto;
     }
 
     .bio {
@@ -171,13 +174,6 @@ section.blue {
     .album {
         display: flex;
         flex-direction: column;
-    }
-    img {
-        max-width: 600px;
-    }
-
-    .photo-container {
-        flex-direction: row;
     }
 
     .photo-container img {
@@ -211,6 +207,6 @@ section.blue {
 
     .testimonials,
     .album {
-        padding: 20rem 0;
+        padding: 6rem 0;
     }
 }
