@@ -52,7 +52,7 @@ export const About = () => (
                         San Francisco.
                     </h4>
                     <p>
-                        Liza is now a senior teacher with Nagata Dance.. Each
+                        Liza is now a senior teacher with Nagata Dance. Each
                         year, she prepares a group of students to perform in the
                         Southwest Airlines Chinese New Year Parade.
                     </p>
