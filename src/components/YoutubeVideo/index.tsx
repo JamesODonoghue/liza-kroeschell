@@ -1,5 +1,5 @@
 import React, { useEffect, MouseEvent, useState } from "react"
-
+import "./styles.css"
 export interface IVideoProps {
     embedLink: string
 }
