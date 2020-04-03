@@ -9,9 +9,10 @@ export const ZoomClass = () => (
         </p>
         <p>
             Get the wiggles out after staying home safe all day! No previous
-            dance experience necessary. Find a safe space to move and follow the
-            Zoom link below!
+            dance experience necessary.
         </p>
+
+        <p>Find a safe space to move and email me for the Zoom link below!</p>
         <p>
             <b>Ages 5-10: Monday, Wednesday, Friday</b>
         </p>
@@ -19,11 +20,9 @@ export const ZoomClass = () => (
             <b>Ages 3-7: Tuesday, Thursday</b>
         </p>
 
-        <p style={{ marginTop: "5rem" }}>
-            Venmo donations @LizaKroeschell appreciated
-        </p>
+        <p>Venmo donations @LizaKroeschell appreciated</p>
 
-        <div style={{ marginTop: "7rem" }}>
+        <div style={{ marginTop: "5rem" }}>
             <a href="mailto:liza.kroeschell@gmail.com?subject=Zoom Dance Class">
                 <button>Email me for the Zoom link</button>
             </a>
