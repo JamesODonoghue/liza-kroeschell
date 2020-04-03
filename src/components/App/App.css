@@ -90,6 +90,7 @@ p {
 }
 
 a {
+    color: inherit;
     text-decoration: none;
     transition: all 100ms;
     cursor: pointer;
