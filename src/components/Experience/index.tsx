@@ -26,7 +26,7 @@ schools = schools.sort()
 export const Experience = () => (
     <section className="experience">
         <h1> Experience</h1>
-        <h3> Liza teaches or has taught at the following schools:</h3>
+        <h4> Liza has taught dance in schools throughout San Francisco.</h4>
         <ul>
             {schools.map((school, key) => (
                 <li key={key}>{school}</li>
