@@ -1,17 +1,15 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import "./index.css"
 import App from "./components/App"
 import * as serviceWorker from "./serviceWorker"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 import { ROUTES } from "./constants/routes"
-// import ComingSoon from "./components/ComingSoon"
-// import Landing from "./components/Landing"
+import "./index.css"
+
 ReactDOM.render(
     <Router>
         <Switch>
-            <Route exact path={ROUTES.LANDING} component={App} />
-            {/* <Route path={ROUTES.ABOUT} component={About} /> */}
+            <Route exact path={ROUTES.HOME} component={App} />
         </Switch>
     </Router>,
 

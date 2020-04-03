@@ -1,7 +1,6 @@
 import React from "react"
-import LizaBio from "../../assets/photos/headshot_small.jpg"
 import "./styles.css"
-const schools = [
+let schools = [
     "Commodore Sloat Elementary School",
     "French American International School",
     "Junipero Serra Elementary School",
@@ -21,6 +20,8 @@ const schools = [
     "Horizons at San Francisco Friends School",
     "Lycee Francais de San Francisco"
 ]
+
+schools = schools.sort()
 
 export const Experience = () => (
     <section className="experience">

@@ -14,21 +14,13 @@ const videos = [
     "bdjq-_6Mvvw"
 ]
 
-export const VideoList = () => {
-    const getImages = () => {}
-
-    const buildFrames = () => {}
-
-    return (
-        <div className="wrapper">
-            {videos.map(link => YoutubeVideo({ embedLink: link }))}
-        </div>
-    )
-}
+export const VideoList = () => (
+    <div className="wrapper">
+        {videos.map(link => YoutubeVideo({ embedLink: link }))}
+    </div>
+)
 export const YoutubeVideo = ({ embedLink }: IVideoProps) => {
-    const [iframe, setIframe] = useState()
     const [imgSrc, setImgSrc] = useState("")
-    const [imgLoaded, setImgLoaded] = useState(false)
     const [frameSrc, setFrameSrc] = useState("")
     const [selected, setSelected] = useState(false)
 
@@ -38,10 +30,6 @@ export const YoutubeVideo = ({ embedLink }: IVideoProps) => {
         buildIFrame()
     }
 
-    const onImageLoad = () => {
-        setImgLoaded(true)
-    }
-
     const buildIFrame = () => {
         setFrameSrc(
             `https://www.youtube.com/embed/${embedLink}?rel=0&showinfo=0&autoplay=1`
@@ -49,11 +37,13 @@ export const YoutubeVideo = ({ embedLink }: IVideoProps) => {
     }
     useEffect(() => {
         setImgSrc(`https://img.youtube.com/vi/${embedLink}/sddefault.jpg`)
-    }, [])
+    }, [embedLink])
     return (
         <div className="youtube" data-embed={embedLink} onClick={handleClick}>
             {selected ? (
                 <iframe
+                    key={embedLink}
+                    title={embedLink}
                     frameBorder="0"
                     allowFullScreen={true}
                     src={frameSrc}
@@ -61,7 +51,7 @@ export const YoutubeVideo = ({ embedLink }: IVideoProps) => {
             ) : (
                 <div>
                     <div className="play-button"></div>
-                    <img src={imgSrc} onLoad={onImageLoad}></img>
+                    <img src={imgSrc} alt="Dance Video"></img>
                 </div>
             )}
         </div>

@@ -1,54 +1,28 @@
-import React, { MouseEvent } from "react"
+import React, { useState } from "react"
 import { NavLink } from "react-router-dom"
 import { ROUTES } from "../../constants/routes"
-import "./Menu.css"
-class Navigation extends React.Component<any, any> {
-    isOpen: boolean
-    constructor(props: any) {
-        super(props)
-        this.state = { isOpen: false }
+import { Menu } from "../Menu"
 
-        this.handleLinkClick = this.handleLinkClick.bind(this)
-        this.handleButtonClick = this.handleButtonClick.bind(this)
+export const Navigation = () => {
+    const [open, setIsOpen] = useState(false)
+    const handleLinkClick = () => {
+        setIsOpen(false)
+    }
+    const handleButtonClick = () => {
+        setIsOpen(!open)
     }
 
-    handleLinkClick(e: MouseEvent) {
-        this.setState({ isOpen: false })
-    }
-
-    handleButtonClick(e: MouseEvent) {
-        this.setState({ isOpen: !this.state.isOpen })
-    }
-
-    render() {
-        const { isOpen } = this.state
-        return (
-            <header className="header">
-                <div className={`navbar ${isOpen ? "open" : ""}`}>
-                    <NavLink onClick={this.handleLinkClick} to={ROUTES.LANDING}>
-                        Home
-                    </NavLink>
-                    {/* <NavLink onClick={this.handleLinkClick} to={ROUTES.ABOUT}>
-                        About
-                    </NavLink> */}
-                    <NavLink onClick={this.handleLinkClick} to={ROUTES.MEDIA}>
-                        Media
-                    </NavLink>
-                </div>
-                <button
-                    onClick={this.handleButtonClick}
-                    className={`hamburger hamburger--slider ${
-                        isOpen ? "is-active" : ""
-                    }`}
-                    type="button"
-                >
-                    <span id="hamburger-menu" className="hamburger-box">
-                        <span className="hamburger-inner"></span>
-                    </span>
-                </button>
-            </header>
-        )
-    }
+    return (
+        <header className="header">
+            <div className={`navbar ${open ? "open" : ""}`}>
+                <NavLink onClick={handleLinkClick} to={ROUTES.HOME}>
+                    Home
+                </NavLink>
+                <NavLink onClick={handleLinkClick} to={ROUTES.MEDIA}>
+                    Media
+                </NavLink>
+            </div>
+            <Menu onClick={handleButtonClick} open={open} />
+        </header>
+    )
 }
-
-export default Navigation
