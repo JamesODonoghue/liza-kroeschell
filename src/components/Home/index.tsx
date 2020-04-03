@@ -6,16 +6,16 @@ import { TeachingPhilosophy } from "../TeachingPhilosophy"
 import { About } from "../About"
 import { Experience } from "../Experience"
 import { Landing } from "../Landing"
+import { Footer } from "../Footer"
 
-export const Home = () => {
-    return (
-        <div>
-            <Landing />
-            <ZoomClass />
-            <Testimonials />
-            <TeachingPhilosophy />
-            <About />
-            <Experience />
-        </div>
-    )
-}
+export const Home = () => (
+    <div>
+        <Landing />
+        <ZoomClass />
+        <Testimonials />
+        <TeachingPhilosophy />
+        <About />
+        <Experience />
+        <Footer />
+    </div>
+)

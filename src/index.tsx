@@ -5,7 +5,13 @@ import * as serviceWorker from "./serviceWorker"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 import { ROUTES } from "./constants/routes"
 import "./index.css"
-
+import { library } from "@fortawesome/fontawesome-svg-core"
+import {
+    faFacebookF,
+    faYoutube,
+    faInstagram
+} from "@fortawesome/free-brands-svg-icons"
+library.add(faFacebookF, faYoutube, faInstagram)
 ReactDOM.render(
     <Router>
         <Switch>

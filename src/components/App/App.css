@@ -25,7 +25,7 @@ footer {
 }
 
 section {
-    padding: 4rem;
+    padding: 2rem;
 }
 
 .header,
@@ -68,25 +68,35 @@ section {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 h2 {
-    font-size: 2.25rem;
+    font-size: 2.5rem;
     font-weight: 700;
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
 }
 
 h4 {
     font-size: 1.5rem;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 p {
     font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+    transition: all 100ms;
+    cursor: pointer;
+}
+
+a:visited {
+    color: #fff;
 }
 
 /* Header style */
@@ -102,11 +112,9 @@ p {
     margin-right: 3em;
 }
 
-a {
-    text-decoration: none;
+.navbar a {
     font-size: 1.5rem;
     font-weight: 400;
-    transition: all 100ms;
     color: var(--header-bg-color);
 }
 
@@ -156,6 +164,10 @@ section h1 {
         font-size: 3rem;
     }
 
+    section {
+        padding: 4rem;
+    }
+
     .navbar {
         position: relative;
         height: unset;
@@ -188,16 +200,6 @@ section h1 {
         flex-wrap: wrap;
     }
 
-    footer {
-        position: fixed;
-        bottom: 0;
-        display: flex;
-        width: 100%;
-        font-size: 3rem;
-        background: var(--button-color);
-        color: #fff;
-    }
-
     .contact {
         display: flex;
         width: 100%;
@@ -206,12 +208,12 @@ section h1 {
         flex-wrap: wrap;
     }
 
-    a {
+    .navbar a {
         text-decoration: none;
         font-size: 1.5rem;
-        margin-right: 2em;
         font-weight: 400;
         transition: all 100ms;
+        margin-right: 4rem;
     }
 
     .hamburger {
