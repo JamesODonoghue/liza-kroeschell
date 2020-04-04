@@ -14,6 +14,7 @@ iframe {
     width: 100%;
     margin-bottom: 2rem;
     transition: all 100ms;
+    height: 178px;
 }
 
 .youtube:hover img {
@@ -67,7 +68,8 @@ iframe {
 
 @media (min-width: 600px) {
     .youtube {
-        width: 600px;
+        max-width: 600px;
+        height: auto;
         margin-right: 1rem;
         margin-bottom: 1rem;
     }

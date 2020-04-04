@@ -11,12 +11,12 @@ const videos = [
     "OJItiWIscSA",
     "t7khV6OqL6Q",
     "kSUXULbY3Jc",
-    "bdjq-_6Mvvw"
+    "bdjq-_6Mvvw",
 ]
 
 export const VideoList = () => (
     <div className="wrapper">
-        {videos.map(link => YoutubeVideo({ embedLink: link }))}
+        {videos.map((link) => YoutubeVideo({ embedLink: link }))}
     </div>
 )
 export const YoutubeVideo = ({ embedLink }: IVideoProps) => {
@@ -36,7 +36,11 @@ export const YoutubeVideo = ({ embedLink }: IVideoProps) => {
         )
     }
     useEffect(() => {
-        setImgSrc(`https://img.youtube.com/vi/${embedLink}/sddefault.jpg`)
+        setImgSrc(
+            `https://img.youtube.com/vi/${
+                embedLink.split("?")[0]
+            }/sddefault.jpg`
+        )
     }, [embedLink])
     return (
         <div className="youtube" data-embed={embedLink} onClick={handleClick}>
