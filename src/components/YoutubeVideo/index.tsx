@@ -25,7 +25,6 @@ export const YoutubeVideo = ({ embedLink }: IVideoProps) => {
     const [selected, setSelected] = useState(false)
 
     const handleClick = (e: MouseEvent) => {
-        console.log(e)
         setSelected(true)
         buildIFrame()
     }
