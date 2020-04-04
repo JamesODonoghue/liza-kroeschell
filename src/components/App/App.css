@@ -149,6 +149,11 @@ button {
     width: 100%;
 }
 
+button.secondary {
+    color: var(--button-color);
+    background: #fff;
+}
+
 section h1 {
     text-align: center;
 }
