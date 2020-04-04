@@ -35,9 +35,14 @@ export const ZoomClass = () => (
             and small group dance lessons on Zoom. Pay what you can!
         </p>
         <p>
-            Email <b>liza.kroeschell@gmail.com</b> for more information about
-            individualized dance instruction tailored to your child’s interests
-            and goals.
+            Email{" "}
+            <b>
+                <a href="mailto:liza.kroeschell@gmail.com?subject=Zoom Private Class">
+                    liza.kroeschell@gmail.com
+                </a>
+            </b>{" "}
+            for more information about individualized dance instruction tailored
+            to your child’s interests and goals.
         </p>
 
         <div>

@@ -23,7 +23,6 @@ export const Footer = () => {
             </div>
             <div>
                 <h4>liza.kroeschell@gmail.com</h4>
-                <h4>(515) 451-5913</h4>
             </div>
         </footer>
     )
