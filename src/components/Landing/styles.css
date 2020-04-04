@@ -9,7 +9,7 @@
     box-sizing: border-box;
     margin: 0;
     color: #fff;
-    background-image: url("../../assets/photos/headshot_small.jpg");
+    /* background-image: url("../../assets/photos/headshot.jpg"); */
     padding: 3rem;
     background-position: 40%;
 }
@@ -108,6 +108,18 @@
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
+}
+
+.headshot {
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+    width: 1200px;
+    margin: -20%;
 }
 
 @media (min-width: 600px) {
