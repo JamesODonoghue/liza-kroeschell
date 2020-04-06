@@ -9,9 +9,15 @@
     src: local("OpenSans"), url(../../assets/fonts/Open_Sans/OpenSans-Regular.ttf) format("truetype");
 }
 
+@font-face {
+    font-family: "Dosis";
+    src: local("Dosis"), url(../../assets/fonts/Dosis/Dosis-VariableFont_wght.ttf) format("truetype");
+    font-weight: 1 999;
+}
+
 html,
 body {
-    font-size: 14px;
+    font-size: 16px;
     color: var(--header-bg-color);
 }
 
@@ -25,7 +31,7 @@ footer {
 }
 
 section {
-    padding: 2rem;
+    padding: 6rem 2rem;
 }
 
 .header,
@@ -69,6 +75,8 @@ section {
 
 h1 {
     font-size: 3.5rem;
+    font-weight: bold;
+    margin-top: 0;
 }
 
 h2 {
@@ -78,15 +86,16 @@ h2 {
 
 h3 {
     font-size: 1.75rem;
+    font-weight: normal;
 }
 
 h4 {
     font-size: 1.5rem;
-    font-weight: 300;
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
     margin-top: 2rem;
 }
 
@@ -96,7 +105,6 @@ a {
     transition: all 100ms;
     cursor: pointer;
 }
-
 a:visited {
     color: #fff;
 }
@@ -126,20 +134,11 @@ a:hover {
 
 /* Button style */
 
-button:hover {
-    background-color: #fff;
-    color: var(--button-color);
-}
-
-.donate-button:hover {
-    background-color: #fff;
-    color: var(--button-color);
-}
-
 button {
     font-size: 1.25rem;
     font-weight: bold;
     padding: 1rem 4rem;
+    margin: 3rem 0;
     border-radius: 5px;
     border: 2px solid var(--button-color);
     background: var(--button-color);
@@ -153,9 +152,27 @@ button.secondary {
     color: var(--button-color);
     background: #fff;
 }
+button:hover {
+    background-color: #fff;
+    color: var(--button-color);
+}
 
-section h1 {
-    text-align: center;
+.donate-button:hover {
+    background-color: #fff;
+    color: var(--button-color);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 5rem;
+    max-width: 1600px;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 @media (min-width: 600px) {
@@ -169,10 +186,6 @@ section h1 {
 
     h2 {
         font-size: 3rem;
-    }
-
-    section {
-        padding: 4rem;
     }
 
     .navbar {

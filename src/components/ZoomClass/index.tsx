@@ -1,14 +1,14 @@
 import React from "react"
-
+import "./styles.css"
 export const ZoomClass = () => (
     <section className="zoom-section">
-        <h1 style={{ textAlign: "center" }}>Calling All Kids!</h1>
-        <h4 style={{ fontWeight: "bold" }}>
+        <h1>Calling All Kids!</h1>
+        <h3>
             Ms. Liza teaches weekly open dance classes and is available for
             private lessons upon request.
-        </h4>
+        </h3>
         <p>
-            <b>Open classes: Tuesdays and Thursdays at 4pm Pacfic Time.</b>
+            <b>Open classes: Tuesdays and Thursdays at 4pm Pacific Time.</b>
         </p>
         <p>
             Join Ms. Liza for fun, 45-minute dance classes on Zoom. Get the

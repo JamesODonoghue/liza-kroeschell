@@ -1,5 +1,7 @@
 import React from "react"
 import LizaBio from "../../assets/photos/headshot_small.jpg"
+import "./styles.css"
+
 export const About = () => (
     <section className="blue">
         <div className="bio">
@@ -7,12 +9,12 @@ export const About = () => (
                 <h1>About Me</h1>
                 <img alt="profile" src={LizaBio}></img>
             </div>
-            <div className="bio-grid">
+            <div className="grid">
                 <div className="bio-item">
-                    <h4>
+                    <h3>
                         Studious dancer with professional performance
                         experience.
-                    </h4>
+                    </h3>
                     <p>
                         Liza Kroeschell is a Bay Area dancer and dance teacher
                         born and raised in Iowa. She graduated summa cum laude
@@ -28,9 +30,9 @@ export const About = () => (
                     </p>
                 </div>
                 <div className="bio-item">
-                    <h4>
+                    <h3>
                         Skilled educator who trained with the best in the field.
-                    </h4>
+                    </h3>
                     <p>
                         Liza discovered a passion for teaching in 2012 while
                         training under Ms. Corrine Nagata of Nagata Dance, an
@@ -47,10 +49,10 @@ export const About = () => (
                     </p>
                 </div>
                 <div className="bio-item">
-                    <h4>
+                    <h3>
                         Passionate professional teaching children to dance in
                         San Francisco.
-                    </h4>
+                    </h3>
                     <p>
                         Liza is now a senior teacher with Nagata Dance. Each
                         year, she prepares a group of students to perform in the

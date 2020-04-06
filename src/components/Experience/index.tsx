@@ -18,15 +18,17 @@ let schools = [
     "Dianne Feinstein Elementary School",
     "San Francisco Friends School",
     "Horizons at San Francisco Friends School",
-    "Lycee Francais de San Francisco"
+    "Lycee Francais de San Francisco",
 ]
 
 schools = schools.sort()
 
 export const Experience = () => (
     <section className="experience">
-        <h1> Experience</h1>
-        <h4> Liza has taught dance in schools throughout San Francisco.</h4>
+        <div className="section-header">
+            <h1> Experience</h1>
+        </div>
+        <h3> Liza has taught dance in schools throughout San Francisco.</h3>
         <ul>
             {schools.map((school, key) => (
                 <li key={key}>{school}</li>

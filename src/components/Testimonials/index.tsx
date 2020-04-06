@@ -1,10 +1,10 @@
 import React from "react"
-
+import "./styles.css"
 export const Testimonials = () => {
     return (
         <section className="testimonials">
             <div>
-                <h1>"An Energy of Pure Joy"</h1>
+                <h1>"An energy of pure joy"</h1>
             </div>
             <div className="testimonial">
                 <p>
