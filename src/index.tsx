@@ -11,16 +11,16 @@ import {
     faYoutube,
     faInstagram,
 } from "@fortawesome/free-brands-svg-icons"
-import Analytics from "react-router-ga"
+// import Analytics from "react-router-ga"
 
 library.add(faFacebookF, faYoutube, faInstagram)
 ReactDOM.render(
     <Router>
-        <Analytics id="UA-155093524-1" debug>
-            <Switch>
-                <Route exact path={ROUTES.HOME} component={App} />
-            </Switch>
-        </Analytics>
+        {/* <Analytics id="UA-155093524-1" debug> */}
+        <Switch>
+            <Route exact path={ROUTES.HOME} component={App} />
+        </Switch>
+        {/* </Analytics> */}
     </Router>,
     document.getElementById("root")
 )
