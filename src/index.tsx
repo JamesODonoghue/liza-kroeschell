@@ -13,6 +13,8 @@ import {
 } from "@fortawesome/free-brands-svg-icons"
 // import Analytics from "react-router-ga"
 
+import "animate.css/animate.min.css"
+
 library.add(faFacebookF, faYoutube, faInstagram)
 ReactDOM.render(
     <Router>

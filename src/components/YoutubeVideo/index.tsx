@@ -5,14 +5,14 @@ export interface IVideoProps {
 }
 
 const videos = [
-    "woRRcl5-7mo",
-    "761Ah9h4U-o",
-    "Zcmved0uM_E?start=1481",
-    "NKEFrH_wTEo",
-    "OJItiWIscSA",
-    "t7khV6OqL6Q",
-    "kSUXULbY3Jc",
-    "bdjq-_6Mvvw",
+    "woRRcl5-7mo?",
+    "761Ah9h4U-o?",
+    "Zcmved0uM_E?start=1481&",
+    "NKEFrH_wTEo?",
+    "OJItiWIscSA?",
+    "t7khV6OqL6Q?",
+    "kSUXULbY3Jc?",
+    "bdjq-_6Mvvw?",
 ]
 
 export const VideoList = () => (
@@ -32,7 +32,7 @@ export const YoutubeVideo = ({ embedLink }: IVideoProps) => {
 
     const buildIFrame = () => {
         setFrameSrc(
-            `https://www.youtube.com/embed/${embedLink}?rel=0&showinfo=0&autoplay=1`
+            `https://www.youtube.com/embed/${embedLink}rel=0&showinfo=0&autoplay=1`
         )
     }
     useEffect(() => {
