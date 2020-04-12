@@ -101,9 +101,9 @@ a {
     transition: all 100ms;
     cursor: pointer;
 }
-a:visited {
+/* a:visited {
     color: #fff;
-}
+} */
 
 /* Header style */
 

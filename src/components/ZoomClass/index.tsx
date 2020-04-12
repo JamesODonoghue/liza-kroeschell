@@ -2,37 +2,54 @@ import React from "react"
 import "./styles.css"
 export const ZoomClass = () => (
     <section className="zoom-section">
-        <h1>Calling All Kids!</h1>
+        <h1>Dance with Ms. Liza!</h1>
+        <p>
+            Ms. Liza is offering open dance classes for kids and private lessons
+            upon request. Support a local independent teaching artist. Invite a
+            friend and get moving!
+        </p>
         <h3>
-            Ms. Liza teaches weekly open dance classes and is available for
-            private lessons upon request.
+            <b>Open classes</b>
         </h3>
         <p>
-            <b>Open classes: Tuesdays and Thursdays at 4pm Pacific Time.</b>
+            <b>Ages 5-10 Hip-Hop: Tuesday and Thursday at 4pm</b>
+        </p>
+        <p>
+            <b>Ages 3-6 Ballet: Wednesday at 4pm</b>
+        </p>
+        <p>
+            <b>Ages 8-13 Hip-Hop CHALLENGE: Friday at 4pm</b>
         </p>
         <p>
             Join Ms. Liza for fun, 45-minute dance classes on Zoom. Get the
             wiggles out after staying home safe all day!
         </p>
+        <p>No previous dance experience necessary. All ages welcome!</p>
         <p>
-            Each class will include an imaginative activity for children as
-            young as three and a challenge step for those as old as ten. No
-            previous dance experience necessary. All ages welcome!
-        </p>
-        <p>
-            <i>Venmo donations @Liza-Kroeschell appreciated.</i>
+            Donations are appreciated
+            <br></br>
+            <b>
+                <a href="https://venmo.com/code?user_id=2131492754948096247">
+                    Venmo: @Liza-Kroeschell
+                </a>
+            </b>
+            <br></br>
+            <b>
+                <a href="https://paypal.me/lkroeschell">Paypal: lkroeschell</a>
+            </b>
         </p>
 
         <div>
             <a href="mailto:liza.kroeschell@gmail.com?subject=Zoom Open Dance Class">
-                <button className="secondary">
-                    Email me for the Zoom Link
-                </button>
+                <button className="secondary">Access to the Zoom class</button>
             </a>
         </div>
+        <h3>
+            <b>Private Lessons</b>
+        </h3>
         <p>
-            <b>Private Lessons</b>: Want to Dance MORE? Ms. Liza teaches private
-            and small group dance lessons on Zoom. Pay what you can!
+            Want to Dance MORE? Ms. Liza teaches private and small group dance
+            lessons on Zoom. Pay what you can!
         </p>
         <p>
             Email{" "}
