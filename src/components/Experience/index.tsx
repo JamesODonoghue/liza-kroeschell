@@ -6,7 +6,7 @@ let schools = [
     "Junipero Serra Elementary School",
     "Alamo Elementary School",
     "Jewish Community Center of San Francisco",
-    "Chinese Immersion School at DaVila ",
+    "Chinese Immersion School at De Avila ",
     "Alice Fong Yu Elementary School",
     "Edwin and Anita Lee Newcomer School",
     "Rosa Parks Elementary School",
@@ -18,7 +18,7 @@ let schools = [
     "Dianne Feinstein Elementary School",
     "San Francisco Friends School",
     "Horizons at San Francisco Friends School",
-    "Lycee Francais de San Francisco",
+    "Lycée Français de San Francisco",
 ]
 
 schools = schools.sort()

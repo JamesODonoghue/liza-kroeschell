@@ -30,11 +30,13 @@ export const Landing = () => {
                     src={headshot}
                     onLoadBg={() => setLargeLoaded(true)}
                 />
-                <div>
+                <div className="landing__content">
                     <h1>
                         <b>Hi</b>, I'm Ms. Liza
                     </h1>
-                    <h3>I teach dance to children in San Francisco</h3>
+                    <p>
+                        <b>I teach dance to children in San Francisco</b>
+                    </p>
                 </div>
             </div>
             <p className="headshot-credit">Headshot by Rob Kunkle, GoodLux</p>

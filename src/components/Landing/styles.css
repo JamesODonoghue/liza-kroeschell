@@ -9,7 +9,7 @@
     box-sizing: border-box;
     margin: 0;
     color: #fff;
-    padding: 3rem;
+    padding: 2rem;
     background-position: 25%;
 }
 
@@ -19,7 +19,10 @@
 }
 
 .landing b {
-    font-weight: 800;
+    font-weight: 700;
+}
+.landing__content {
+    margin-top: 30vh;
 }
 
 .headshot-credit {
@@ -42,7 +45,23 @@
         align-items: flex-start;
     }
 
+    .landing__content {
+        margin-top: 25vh;
+        margin-left: 5rem;
+    }
+
     .landing h1 {
         font-size: 7rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .landing p {
+        font-size: 1.5rem;
     }
 }
+/* 
+@media (min-width: 1570px) {
+    .landing__content {
+        margin-left: 15vw;
+    }
+} */

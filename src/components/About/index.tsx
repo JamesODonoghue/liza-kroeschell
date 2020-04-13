@@ -31,7 +31,8 @@ export const About = () => (
                 </div>
                 <div className="bio-item">
                     <h3>
-                        Skilled educator who trained with the best in the field.
+                        Skilled educator who has trained with the best in her
+                        field.
                     </h3>
                     <p>
                         Liza discovered a passion for teaching in 2012 while
