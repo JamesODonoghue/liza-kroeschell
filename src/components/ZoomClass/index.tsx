@@ -12,13 +12,7 @@ export const ZoomClass = () => (
             <b>Open classes</b>
         </h3>
         <p>
-            <b>Ages 5-10 Hip-Hop: Tuesday and Thursday at 4pm</b>
-        </p>
-        <p>
-            <b>Ages 3-6 Ballet: Wednesday at 4pm</b>
-        </p>
-        <p>
-            <b>Ages 8-13 Hip-Hop CHALLENGE: Friday at 4pm</b>
+            <b>Ages 5-10 Hip-Hop: Tuesdays at 10am and Thursdays at 4pm</b>
         </p>
         <p>
             Join Ms. Liza for fun, 45-minute dance classes on Zoom. Get the
