@@ -4,3 +4,11 @@
         margin: auto;
     }
 }
+
+@media (min-width: 600px) {
+    .zoom-section .youtube {
+        margin-right: 0;
+        margin-bottom: 0;
+        max-width: unset;
+    }
+}
