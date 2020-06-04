@@ -66,7 +66,9 @@ export const ZoomClass = () => (
 
         <div>
             <a href="mailto:liza.kroeschell@gmail.com?subject=Zoom Open Dance Class">
-                <button className="secondary">Access to the Zoom class</button>
+                <button className="secondary">
+                    Email me for the zoom link!
+                </button>
             </a>
         </div>
         <h3>
