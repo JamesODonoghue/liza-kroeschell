@@ -12,3 +12,11 @@
         max-width: unset;
     }
 }
+
+.zoom-section a {
+    color: #0645ad;
+}
+
+.zoom-section a:hover {
+    text-decoration: underline;
+}

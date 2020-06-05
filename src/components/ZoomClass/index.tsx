@@ -5,31 +5,33 @@ export const ZoomClass = () => (
     <section className="zoom-section">
         <h3>
             <b>
-                Today's 10am dance class has been cancelled in observance of the
-                Dance Industry Blackout.
+                Resources for Children in Light of Black Lives Matter Protests
             </b>
         </h3>
-        <p>
-            The blackout calls for the dance industry to stop operations on
-            Tuesday, June 2, to bring awareness to the police brutality and
-            racial injustice in the U.S. Class will resume Thursday,{" "}
-            <b>June 4 at 4pm PDT.</b>
-        </p>
         <p>
             Many of our country's most popular dances--jazz, tap, hip hop, the
             twist!--started in the black community. This isn't something we
             always talk about when we're dancing, but black art and
             contributions from the black community have shaped the dance steps
-            that we learn today. Instead of class today, watch this video and
-            dance along!
+            that we learn today.
         </p>
         <p>
-            Thank you all so much for your support. I look forward to dancing
-            with you again on Thursday! Best, Ms. Liza
+            Tune in to CNN on Saturday, June 6 at 7am Pacific Time for a{" "}
+            <a href="https://www.sesameworkshop.org/press-room/press-releases/coming-together-standing-racism-cnnsesame-street-town-hall-kids-and">
+                <b>Sesame Street Town Hall</b>
+            </a>{" "}
+            to help kids and families discuss racism and the protests taking
+            place nationwide, build empathy and embrace diversity.
         </p>
 
         <br></br>
-        <div style={{ display: "flex", height: "320px", marginBottom: "6rem" }}>
+        <div
+            style={{
+                display: "flex",
+                height: "320px",
+                marginBottom: "6rem",
+            }}
+        >
             <YoutubeVideo embedLink="dpCBMwAweDI?"></YoutubeVideo>
         </div>
 
