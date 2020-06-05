@@ -5,7 +5,8 @@ export const ZoomClass = () => (
     <section className="zoom-section">
         <h3>
             <b>
-                Resources for Children in Light of Black Lives Matter Protests
+                Resources for children to learn about Black Lives Matter and the
+                history of dance as a black art form.
             </b>
         </h3>
         <p>
