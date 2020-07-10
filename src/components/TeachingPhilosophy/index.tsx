@@ -1,7 +1,6 @@
 import React from 'react';
 import pose from 'assets/photos/afy_pose.jpg';
 import creativity from 'assets/photos/nagata_three.jpg';
-
 import './styles.css';
 export const TeachingPhilosophy = () => {
     return (

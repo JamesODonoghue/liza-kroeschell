@@ -3,6 +3,18 @@
     color: var(--color-blue-dark);
 }
 
+.zoom-section {
+    color: var(--color-blue-dark);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, 600px));
+    margin: auto;
+    justify-content: center;
+    column-gap: 5rem;
+    row-gap: 5rem;
+    align-items: center;
+    padding-top: 6rem;
+}
+
 .zoom-section img {
     border-radius: 1rem;
     max-width: 100%;
@@ -19,17 +31,6 @@
     transform: translateY(-7px);
     background: #ffb2be;
     box-shadow: 0px 8px 15px rgb(255, 178, 190, 0.3);
-}
-.zoom-section {
-    color: var(--color-blue-dark);
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(0, 600px));
-    margin: auto;
-    justify-content: center;
-    column-gap: 5rem;
-    row-gap: 5rem;
-    align-items: center;
-    padding-top: 15rem;
 }
 
 @media (min-width: 600px) {

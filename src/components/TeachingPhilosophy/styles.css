@@ -1,5 +1,5 @@
 .teaching-philosophy {
-    max-width: 1600px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -7,7 +7,7 @@
     display: grid;
     grid-template-rows: 1fr 1fr;
     column-gap: 5rem;
-    row-gap: 5rem;
+    row-gap: 10rem;
 }
 
 .teaching-philosophy img {
@@ -18,10 +18,17 @@
 
 .new-grid .item {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     column-gap: 5rem;
+    row-gap: 5rem;
 }
 
 .item .text {
-    padding: 5rem;
+    max-width: 600px;
+    margin: auto;
+}
+
+.text p {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
 }
