@@ -1,10 +1,10 @@
-import React from "react"
-import "./App.css"
-import { HashRouter as Router, Route, Switch } from "react-router-dom"
-import { ROUTES } from "../../constants/routes"
-import { Home } from "../Home"
-import { Media } from "../Media"
-import { Navigation } from "../Navigation"
+import React from 'react';
+import './App.css';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import { ROUTES } from '../../constants/routes';
+import { Home } from '../Home';
+import { Media } from '../Media';
+import { Navigation } from '../Navigation';
 
 const App = () => {
     return (
@@ -15,6 +15,6 @@ const App = () => {
                 <Route path={ROUTES.MEDIA} component={Media} />
             </Switch>
         </Router>
-    )
-}
-export default App
+    );
+};
+export default App;

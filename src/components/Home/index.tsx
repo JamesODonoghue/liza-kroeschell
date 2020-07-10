@@ -1,13 +1,13 @@
-import React from "react"
-import "./styles.css"
-import { ZoomClass } from "../ZoomClass"
-import { Testimonials } from "../Testimonials"
-import { TeachingPhilosophy } from "../TeachingPhilosophy"
-import { About } from "../About"
-import { Experience } from "../Experience"
-import { Landing } from "../Landing"
-import { Footer } from "../Footer"
-import ScrollAnimation from "react-animate-on-scroll"
+import React from 'react';
+import './styles.css';
+import { ZoomClass } from '../ZoomClass';
+import { Testimonials } from '../Testimonials';
+import { TeachingPhilosophy } from '../TeachingPhilosophy';
+import { About } from '../About';
+import { Experience } from '../Experience';
+import { Landing } from '../Landing';
+import { Footer } from '../Footer';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 export const Home = () => {
     return (
@@ -30,5 +30,5 @@ export const Home = () => {
             </ScrollAnimation>
             <Footer />
         </div>
-    )
-}
+    );
+};

@@ -1,14 +1,27 @@
 .teaching-philosophy {
-    max-width: 800px;
+    max-width: 1600px;
     margin: auto;
 }
 
-.teaching-philosophy .body {
+.teaching-philosophy .new-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: 1fr 1fr;
+    column-gap: 5rem;
+    row-gap: 5rem;
 }
 
 .teaching-philosophy img {
-    margin-top: 4rem;
+    border-radius: 1rem;
     max-width: 100%;
+    box-shadow: 1rem 1rem 0 var(--color-pink);
+}
+
+.new-grid .item {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    column-gap: 5rem;
+}
+
+.item .text {
+    padding: 5rem;
 }

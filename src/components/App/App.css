@@ -1,24 +1,43 @@
-:root {
-    --header-bg-color: #233142;
-    --button-color: #f95959;
-    --tertiary-color: #fafafa;
+@font-face {
+    font-family: 'OpenSans';
+    src: local('OpenSans'), url(../../assets/fonts/Open_Sans/OpenSans-Regular.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: "OpenSans";
-    src: local("OpenSans"), url(../../assets/fonts/Open_Sans/OpenSans-Regular.ttf) format("truetype");
-}
-
-@font-face {
-    font-family: "Dosis";
-    src: local("Dosis"), url(../../assets/fonts/Dosis/Dosis-VariableFont_wght.ttf) format("truetype");
+    font-family: 'Dosis';
+    src: local('Dosis'), url(../../assets/fonts/Dosis/Dosis-VariableFont_wght.ttf) format('truetype');
     font-weight: 1 999;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat'), url(../../assets/fonts/Montserrat/Montserrat-Regular.ttf) format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat'), url(../../assets/fonts/Montserrat/Montserrat-Italic.ttf) format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat'), url(../../assets/fonts/Montserrat/Montserrat-Bold.ttf) format('truetype');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat'), url(../../assets/fonts/Montserrat/Montserrat-Black.ttf) format('truetype');
+    font-weight: 900;
 }
 
 html,
 body {
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+        'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
-    color: var(--header-bg-color);
+    color: var(--color-text);
 }
 
 /* Type */
@@ -36,7 +55,7 @@ h2 {
 
 h3 {
     font-size: 1.75rem;
-    font-weight: normal;
+    font-weight: 700;
 }
 
 h4 {
@@ -46,7 +65,10 @@ h4 {
 p {
     font-size: 1rem;
     line-height: 1.5rem;
-    margin-top: 2rem;
+}
+
+b {
+    font-weight: 700;
 }
 
 main,
@@ -58,30 +80,6 @@ footer {
 
 section {
     padding: 6rem 2rem;
-}
-
-.header,
-.navbar {
-    flex-direction: row;
-    align-items: flex-start;
-}
-
-.navbar {
-    display: none;
-    align-items: center;
-}
-
-.navbar.open {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    background: #fff;
-    height: 100%;
-    width: 100%;
-    align-content: center;
-    top: 0;
-    bottom: 0;
-    justify-content: space-evenly;
 }
 
 .main-content {
@@ -101,32 +99,6 @@ a {
     transition: all 100ms;
     cursor: pointer;
 }
-/* a:visited {
-    color: #fff;
-} */
-
-/* Header style */
-
-.header {
-    display: flex;
-    justify-content: flex-end;
-    color: var(--header-bg-color);
-    z-index: 9999;
-}
-
-.navbar__link {
-    margin-right: 3em;
-}
-
-.navbar a {
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: var(--header-bg-color);
-}
-
-a:hover {
-    color: var(--button-color);
-}
 
 /* Button style */
 
@@ -137,8 +109,8 @@ button {
     margin: 3rem 0;
     border-radius: 5px;
     border: 2px solid var(--button-color);
-    background: var(--button-color);
-    color: #fff;
+    background: var(--color-pink);
+    color: var(--color-blue-dark);
     transition: all 100ms;
     cursor: pointer;
     width: 100%;
@@ -150,7 +122,6 @@ button.secondary {
 }
 button:hover {
     background-color: #fff;
-    color: var(--button-color);
 }
 
 .donate-button:hover {
@@ -176,33 +147,6 @@ button:hover {
         margin-top: 12rem;
     }
 
-    h1 {
-        font-size: 4rem;
-    }
-
-    h2 {
-        font-size: 3rem;
-    }
-
-    .navbar {
-        position: relative;
-        height: unset;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .header {
-        flex-direction: row;
-        flex-wrap: wrap;
-        position: fixed;
-        width: 100%;
-        background: #fff;
-        top: 0;
-        padding: 2rem;
-        box-sizing: border-box;
-    }
-
     .section-landing {
         width: 100%;
         margin: 0px;
@@ -222,17 +166,5 @@ button:hover {
         justify-content: space-evenly;
         margin: 2rem 4rem;
         flex-wrap: wrap;
-    }
-
-    .navbar a {
-        text-decoration: none;
-        font-size: 1.5rem;
-        font-weight: 400;
-        transition: all 100ms;
-        margin-right: 4rem;
-    }
-
-    .hamburger {
-        display: none;
     }
 }

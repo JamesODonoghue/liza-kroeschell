@@ -1,6 +1,6 @@
 footer {
     height: 40vh;
-    background-color: var(--header-bg-color);
+    background-color: var(--color-blue-dark);
     color: #fff;
     padding: 2rem;
     display: flex;
