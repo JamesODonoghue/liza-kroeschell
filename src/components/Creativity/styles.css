@@ -1,0 +1,42 @@
+.new-grid .item {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    column-gap: 5rem;
+    row-gap: 5rem;
+}
+
+.confidence {
+    display: flex;
+}
+
+.creativity-section {
+    display: flex;
+    width: 50rem;
+    margin: auto;
+}
+.teaching-philosophy .creativity-item {
+    display: flex;
+    height: 640px;
+}
+
+.teaching-philosophy img {
+    max-width: 100%;
+}
+
+.creativity-section {
+    max-width: 100%;
+    /* background-color: #35469c;
+    color: #ffd0b5; */
+    height: 640px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.creativity-section img {
+    height: 320px;
+    width: 320px;
+    object-fit: cover;
+    margin-left: 5rem;
+    border-radius: 10px;
+}

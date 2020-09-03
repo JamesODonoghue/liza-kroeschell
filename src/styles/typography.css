@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins'), url(../assets/fonts/Poppins/Poppins-Regular.ttf) format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins'), url(../assets/fonts/Poppins/Poppins-SemiBold.ttf) format('truetype');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins'), url(../assets/fonts/Poppins/Poppins-Bold.ttf) format('truetype');
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'Poppins';
+    font-style: italic;
+    src: local('Poppins'), url(../assets/fonts/Poppins/Poppins-Italic.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Mali';
+    src: local('Mali'), url(../assets/fonts/Mali/Mali-Medium.ttf) format('truetype');
+}
+
+:root {
+    --font-primary: 'Poppins';
+    --font-secondary: serif;
+
+    /* set base values */
+    --text-base-size: 1em;
+    --text-scale-ratio: 1.2;
+
+    --text-scale: 1.618;
+    /* type scale */
+    --text-sm: 1rem;
+
+    --text-md: 1.125rem;
+    --text-lg: 1.5rem;
+    --text-xl: 3rem;
+    --text-xxl: 4rem;
+
+    --text-weight-sm: 400;
+    --text-weight-md: 600;
+    --text-weight-lg: 800;
+}
+
+p {
+    font-size: var(--text-sm);
+}
+
+h4 {
+    font-size: var(--text-md);
+}
+
+h3 {
+    font-size: var(--text-lg);
+}
+
+h2 {
+    font-size: var(--text-xl);
+}
+h1 {
+    font-size: var(--text-xxl);
+    font-weight: var(--text-weight-sm);
+}
+
+body {
+    font-family: var(--font-primary);
+}

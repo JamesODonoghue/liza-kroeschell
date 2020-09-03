@@ -1,0 +1,16 @@
+:root {
+    --space-xs: 0.5rem;
+    --space-sm: 1rem;
+    --space-md: 1.5rem;
+    --space-lg: 3rem;
+    --space-xl: 5rem;
+    --space-xxl: 8rem;
+}
+
+body {
+    padding: 0 var(--space-lg);
+}
+
+section {
+    margin: auto;
+}

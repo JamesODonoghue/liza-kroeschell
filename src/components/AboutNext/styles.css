@@ -1,0 +1,20 @@
+.about-next h4 {
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.about-next {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: var(--box-xl);
+    margin-bottom: var(--space-xxl);
+    justify-content: space-between;
+}
+
+.about-next img {
+    height: 20rem;
+    width: 20rem;
+    object-fit: cover;
+    border-radius: 1rem;
+}

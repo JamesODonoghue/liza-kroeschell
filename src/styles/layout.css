@@ -1,0 +1,23 @@
+:root {
+    --box-sm: 10rem;
+    --box-md: 20rem;
+    --box-lg: 30rem;
+    --box-xl: 50rem;
+    --box-xxl: 80rem;
+}
+
+.container-sm {
+    max-width: var(--box-sm);
+}
+.container-md {
+    max-width: var(--box-md);
+}
+.container-lg {
+    max-width: var(--box-lg);
+}
+.container-xl {
+    max-width: var(--box-xl);
+}
+.container-xxl {
+    max-width: var(--box-xxl);
+}
