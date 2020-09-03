@@ -7,24 +7,13 @@
     color: var(--color-blue-dark);
     border-radius: 5px;
     width: 100%;
-    box-shadow: 5px 5px 0px var(--color-pink);
-    font-weight: 700;
     font-size: 1.2rem;
 }
 
 .experience {
-    max-width: 1200px;
-    margin: auto;
+    max-width: var(--box-xl);
 }
 
 .experience ul {
     padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-@media (min-width: 600px) {
-    .experience li {
-        width: auto;
-    }
 }

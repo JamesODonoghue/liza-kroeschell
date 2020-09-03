@@ -11,8 +11,6 @@
 .navbar.open {
     flex-direction: column;
     display: flex;
-    background: var(--color-blue-light);
-    color: var(--color-blue-dark);
     height: 100%;
     width: 100%;
     align-content: center;
@@ -24,20 +22,18 @@
 
 /* Header style */
 
-.header {
+header {
     display: flex;
+    padding-top: var(--space-md);
+    max-width: var(--box-xxl);
+    margin: auto;
     justify-content: space-between;
-    padding: 2rem 0;
     z-index: 9999;
-    color: var(--color-blue-light);
-    background-color: var(--color-blue-dark);
     align-items: center;
 }
 
 .navbar a {
-    font-size: 1.5rem;
-    font-weight: 400;
-    z-index: 99999;
+    margin-left: var(--space-md);
 }
 
 a:hover {
@@ -56,23 +52,14 @@ a:hover {
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        min-width: 200px;
     }
 
     .header {
         flex-direction: row;
         flex-wrap: wrap;
         width: 100%;
-        max-width: 1600px;
         margin: auto;
         box-sizing: border-box;
-    }
-
-    .navbar a {
-        text-decoration: none;
-        font-size: 1.5rem;
-        font-weight: 400;
-        transition: all 100ms;
     }
 
     .menu {

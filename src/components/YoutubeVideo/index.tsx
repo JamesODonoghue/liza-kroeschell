@@ -1,63 +1,47 @@
-import React, { useEffect, MouseEvent, useState } from "react"
-import "./styles.css"
+import React from 'react';
+import ReactPlayer from 'react-player';
 export interface IVideoProps {
-    embedLink: string
+    embedLink: string;
+    name: string;
 }
 
 const videos = [
-    "woRRcl5-7mo?",
-    "761Ah9h4U-o?",
-    "Zcmved0uM_E?start=1481&",
-    "NKEFrH_wTEo?",
-    "OJItiWIscSA?",
-    "t7khV6OqL6Q?",
-    "kSUXULbY3Jc?",
-    "bdjq-_6Mvvw?",
-]
+    'kSUXULbY3Jc?',
+    'Zcmved0uM_E?start=1481&',
+    'bdjq-_6Mvvw?',
+    'woRRcl5-7mo?',
+    '761Ah9h4U-o?',
+    'NKEFrH_wTEo?',
+    'OJItiWIscSA?',
+    't7khV6OqL6Q?',
+];
+
+const videoNames = [
+    'CNY Parade Team 2020',
+    'Chinese New Year 2018',
+    'Nagata Dance',
+    'Rosa Parks',
+    'French American',
+    'Juniperro Serra',
+    'Practicing Plies!',
+    'Dancing Robots and Noodles!',
+];
+
+const videosCombo = videos.map((value, key) => ({
+    name: videoNames[key],
+    link: value,
+}));
 
 export const VideoList = () => (
-    <div className="wrapper">
-        {videos.map((link) => YoutubeVideo({ embedLink: link }))}
+    <div className="flex flex-wrap">{videosCombo.map(({ name, link }) => YoutubeVideo({ embedLink: link, name }))}</div>
+);
+export const YoutubeVideo = ({ embedLink, name }: IVideoProps) => (
+    <div className="mb-12 max-w-full">
+        <h2 className="text-indigo-800 text-xl mb-4 uppercase tracking-wider font-semibold">{name}</h2>
+        <ReactPlayer
+            url={`https://www.youtube.com/watch?v=${embedLink}`}
+            light={`https://img.youtube.com/vi/${embedLink.split('?')[0]}/sddefault.jpg`}
+            className="max-w-full box-border sm:mr-8 border-none rounded-md overflow-hidden shadow-xl max-w-1/2"
+        ></ReactPlayer>
     </div>
-)
-export const YoutubeVideo = ({ embedLink }: IVideoProps) => {
-    const [imgSrc, setImgSrc] = useState("")
-    const [frameSrc, setFrameSrc] = useState("")
-    const [selected, setSelected] = useState(false)
-
-    const handleClick = (e: MouseEvent) => {
-        setSelected(true)
-        buildIFrame()
-    }
-
-    const buildIFrame = () => {
-        setFrameSrc(
-            `https://www.youtube.com/embed/${embedLink}rel=0&showinfo=0&autoplay=1`
-        )
-    }
-    useEffect(() => {
-        setImgSrc(
-            `https://img.youtube.com/vi/${
-                embedLink.split("?")[0]
-            }/sddefault.jpg`
-        )
-    }, [embedLink])
-    return (
-        <div className="youtube" data-embed={embedLink} onClick={handleClick}>
-            {selected ? (
-                <iframe
-                    key={embedLink}
-                    title={embedLink}
-                    frameBorder="0"
-                    allowFullScreen={true}
-                    src={frameSrc}
-                ></iframe>
-            ) : (
-                <div>
-                    <div className="play-button"></div>
-                    <img src={imgSrc} alt="Dance Video"></img>
-                </div>
-            )}
-        </div>
-    )
-}
+);

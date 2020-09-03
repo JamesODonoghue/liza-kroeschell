@@ -1,23 +1,26 @@
-import React from 'react';
-import './styles.css';
-import { ZoomClass } from '../ZoomClass';
+import React, { Fragment } from 'react';
+// import { ZoomClass } from '../ZoomClass';
 import { Testimonials } from '../Testimonials';
-import { TeachingPhilosophy } from '../TeachingPhilosophy';
-import { About } from '../About';
-import { Experience } from '../Experience';
+// import { Confidence } from '../Confidence';
+// import { About } from '../About';
+// import { AboutNext } from '../AboutNext';
+// import { Experience } from '../Experience';
 import { Landing } from '../Landing';
-import { Footer } from '../Footer';
+// import { Footer } from '../Footer';
+// import { Creativity } from '../Creativity';
 
 export const Home = () => {
     return (
-        <div>
+        <Fragment>
             <Landing />
-            <ZoomClass />
             <Testimonials />
-            <TeachingPhilosophy />
-            <About />
+            {/* <About />
+            <AboutNext />
+            <Creativity />
+            <Confidence />
+
             <Experience />
-            <Footer />
-        </div>
+            <Footer /> */}
+        </Fragment>
     );
 };
