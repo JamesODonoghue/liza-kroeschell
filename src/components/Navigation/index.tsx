@@ -31,7 +31,7 @@ export const Navigation = () => {
                     onClick={handleLinkClick}
                     to={ROUTES.MEDIA}
                 >
-                    Video
+                    Videos
                 </NavLink>
                 {/* <Menu className="ml-8" onClick={handleButtonClick} open={open} /> */}
             </div>
