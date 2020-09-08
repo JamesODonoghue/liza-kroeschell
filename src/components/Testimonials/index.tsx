@@ -2,7 +2,7 @@ import React from 'react';
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext, DotGroup, Dot } from 'pure-react-carousel';
 export const Testimonials = () => {
     return (
-        <section className="px-8 pt-64 bg-teal-100">
+        <section className="px-8 pt-32 sm:pt-64 bg-teal-100">
             <CarouselProvider
                 infinite
                 isIntrinsicHeight={true}
@@ -88,9 +88,9 @@ export const Testimonials = () => {
                             </div>
                         );
                     }}
-                    className="max-w-sm mx-auto flex justify-between mt-16"
+                    className="max-w-sm mx-auto flex justify-between mt-8 sm:mt-16"
                 ></DotGroup>
-                <div className="max-w-sm mx-auto flex justify-between mt-16">
+                <div className="max-w-sm mx-auto flex justify-between mt-8 sm:mt-16">
                     <ButtonBack className="focus:outline-none focus:shadow-outline uppercase tracking-wider font-semibold text-indigo-900 px-4 py-2 hover:bg-teal-200 rounded-md transition duration-200">
                         Previous
                     </ButtonBack>
