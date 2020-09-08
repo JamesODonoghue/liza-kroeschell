@@ -14,7 +14,7 @@ export const Navigation = () => {
     // };
 
     return (
-        <header className="flex justify-between px-8 py-4 max-w-6xl mx-auto">
+        <header className="flex justify-between px-8 py-4 max-w-6xl mx-auto items-baseline">
             <h3 className="uppercase tracking-wider font-semibold text-indigo-800 text-xl">Liza Kroeschell</h3>
             <div className={`navbar ${open ? 'open' : ''}`}>
                 <NavLink

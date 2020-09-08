@@ -506,6 +506,10 @@ img {
   align-items: center;
 }
 
+.items-baseline{
+  align-items: baseline;
+}
+
 .justify-between{
   justify-content: space-between;
 }
@@ -522,8 +526,8 @@ img {
   font-weight: 700;
 }
 
-.h-5{
-  height: 1.25rem;
+.h-4{
+  height: 1rem;
 }
 
 .h-16{
@@ -553,6 +557,10 @@ img {
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
+}
+
+.mt-4{
+  margin-top: 1rem;
 }
 
 .mb-4{
@@ -635,8 +643,16 @@ img {
   overflow: hidden;
 }
 
+.p-8{
+  padding: 2rem;
+}
+
 .p-12{
   padding: 3rem;
+}
+
+.p-16{
+  padding: 4rem;
 }
 
 .py-2{
@@ -664,19 +680,9 @@ img {
   padding-right: 1.25rem;
 }
 
-.py-8{
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
 .px-8{
   padding-left: 2rem;
   padding-right: 2rem;
-}
-
-.py-12{
-  padding-top: 3rem;
-  padding-bottom: 3rem;
 }
 
 .py-16{
@@ -807,8 +813,8 @@ img {
   letter-spacing: 0.1em;
 }
 
-.w-5{
-  width: 1.25rem;
+.w-4{
+  width: 1rem;
 }
 
 .w-64{
@@ -863,8 +869,8 @@ img {
 }
 
 .carousel__dot {
-  width: 1.25rem;
-  height: 1.25rem;
+  width: 1rem;
+  height: 1rem;
   --bg-opacity: 1;
   background-color: #a0aec0;
   background-color: rgba(160, 174, 192, var(--bg-opacity));
@@ -929,6 +935,20 @@ img {
 
   .sm\:object-center{
     object-position: center;
+  }
+
+  .sm\:p-12{
+    padding: 3rem;
+  }
+
+  .sm\:py-12{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .sm\:py-16{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
 
   .sm\:pt-64{

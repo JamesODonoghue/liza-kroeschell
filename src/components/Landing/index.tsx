@@ -4,8 +4,8 @@ import headshot from 'assets/photos/headshot_small.jpg';
 export const Landing = () => {
     useEffect(() => {}, []);
     return (
-        <section className="flex max-w-6xl mx-auto py-12">
-            <div className="max-w-md mx-auto px-8 py-16 sm:max-w-xl lg:max-w-full lg:w-1/2">
+        <section className="flex max-w-6xl mx-auto">
+            <div className="max-w-md mx-auto px-8 sm:py-16 sm:max-w-xl lg:max-w-full lg:w-1/2">
                 <div className="xl:max-w-xl xl:ml-auto">
                     <img
                         className="mt-6 mb-6 rounded-lg shadow-2xl sm:h-64 sm:w-full sm:object-cover sm:object-center lg:hidden lg:w-1/2"
@@ -39,7 +39,7 @@ export const Landing = () => {
                     </div>
                 </div>
             </div>
-            <div className="hidden lg:block lg:w-1/2 px-8 py-8">
+            <div className="hidden lg:block lg:w-1/2 px-8 py-16">
                 <img className="rounded-lg shadow-2xl" alt={'profile_image'} src={headshot}></img>
             </div>
         </section>
