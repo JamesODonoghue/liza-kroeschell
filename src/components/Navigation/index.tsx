@@ -14,20 +14,18 @@ export const Navigation = () => {
     // };
 
     return (
-        <header className="flex justify-between px-8 py-4 max-w-6xl mx-auto text-xl">
-            <div className="brand">
-                <h3>Liza Kroeschell</h3>
-            </div>
+        <header className="flex justify-between px-8 py-4 max-w-6xl mx-auto">
+            <h3 className="uppercase tracking-wider font-semibold text-indigo-800 text-xl">Liza Kroeschell</h3>
             <div className={`navbar ${open ? 'open' : ''}`}>
                 <NavLink
-                    className="ml-8 hover:text-indigo-700 transition-all"
+                    className="ml-8 hover:text-indigo-700 transition duration-200 uppercase tracking-wider font-semibold text-gray-700"
                     onClick={handleLinkClick}
                     to={ROUTES.HOME}
                 >
                     Home
                 </NavLink>
                 <NavLink
-                    className="ml-8 hover:text-indigo-700 transition-all"
+                    className="ml-8 hover:text-indigo-700 transition duration-200  uppercase tracking-wider font-semibold text-gray-700"
                     onClick={handleLinkClick}
                     to={ROUTES.MEDIA}
                 >

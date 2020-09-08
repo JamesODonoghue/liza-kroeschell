@@ -7,6 +7,7 @@ export interface IVideoProps {
 
 const videos = [
     'kSUXULbY3Jc?',
+    'yiggBFGEBl4?',
     'Zcmved0uM_E?start=1481&',
     'bdjq-_6Mvvw?',
     'woRRcl5-7mo?',
@@ -18,6 +19,7 @@ const videos = [
 
 const videoNames = [
     'CNY Parade Team 2020',
+    'Zoom Class 2020',
     'Chinese New Year 2018',
     'Nagata Dance',
     'Rosa Parks',

@@ -14,11 +14,14 @@
         "@types/react-youtube": "^7.6.2",
         "animate.css": "^3.7.2",
         "background-image-on-load": "^1.1.0",
+        "pure-react-carousel": "^1.27.2",
         "react": "^16.13.1",
         "react-animate-on-scroll": "^2.1.5",
+        "react-carousel": "^4.3.0",
         "react-dom": "^16.13.1",
         "react-loading-skeleton": "^2.0.1",
         "react-player": "^2.5.0",
+        "react-responsive-carousel": "^3.2.9",
         "react-router-dom": "^5.1.2",
         "react-router-ga": "^1.2.3",
         "react-scripts": "^3.4.1",
@@ -27,7 +30,8 @@
         "typescript": "^3.8.3"
     },
     "scripts": {
-        "build:tailwind": "tailwindcss build src/tailwind.css -o src/tailwind.output.css",
+        "build:tailwind": "postcss src/tailwind.css -o src/tailwind.output.css",
+        "build:tailwind:watch": "postcss src/tailwind.css -o src/tailwind.output.css --watch",
         "prestart": "npm run build:tailwind",
         "prebuild": "npm run build:tailwind",
         "start": "react-scripts start",
@@ -54,6 +58,8 @@
         ]
     },
     "devDependencies": {
-        "gh-pages": "^2.2.0"
+        "gh-pages": "^2.2.0",
+        "postcss-cli": "^7.1.2",
+        "stylelint-config-recommended": "^3.0.0"
     }
 }

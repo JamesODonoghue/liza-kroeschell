@@ -1,7 +1,11 @@
 module.exports = {
     purge: [],
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                body: ['Poppins'],
+            },
+        },
     },
     variants: { backgroundColor: ['responsive', 'focus', 'hover', 'active'] },
     plugins: [],

@@ -1,26 +1,25 @@
 import React, { Fragment } from 'react';
-// import { ZoomClass } from '../ZoomClass';
 import { Testimonials } from '../Testimonials';
-// import { Confidence } from '../Confidence';
-// import { About } from '../About';
-// import { AboutNext } from '../AboutNext';
-// import { Experience } from '../Experience';
 import { Landing } from '../Landing';
-// import { Footer } from '../Footer';
-// import { Creativity } from '../Creativity';
+import { Creativity } from 'components/Creativity';
+import { Confidence } from 'components/Confidence';
+// import { Experience } from 'components/Experience';
+import { Footer } from 'components/Footer';
 
 export const Home = () => {
     return (
         <Fragment>
             <Landing />
+            <div className="h-12 lg:h-32 rounded-b-50 max-w-full w-screen bg-white absolute"></div>
             <Testimonials />
-            {/* <About />
-            <AboutNext />
+            <div className="h-12 lg:h-32 rounded-b-50 max-w-full w-screen bg-teal-100"></div>
+            {/* <About /> */}
+            {/* <AboutNext /> */}
             <Creativity />
             <Confidence />
-
-            <Experience />
-            <Footer /> */}
+            <div className="h-12 lg:h-32 rounded-b-50 max-w-full w-screen bg-white absolute"></div>
+            {/* <Experience /> */}
+            <Footer />
         </Fragment>
     );
 };
