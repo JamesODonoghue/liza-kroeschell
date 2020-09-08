@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import headshot from 'assets/photos/headshot.jpg';
+import headshot from 'assets/photos/headshot_small.jpg';
 
 export const Landing = () => {
     useEffect(() => {}, []);

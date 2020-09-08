@@ -30,10 +30,10 @@
         "typescript": "^3.8.3"
     },
     "scripts": {
-        "build:tailwind": "postcss src/tailwind.css -o src/tailwind.output.css",
-        "build:tailwind:watch": "postcss src/tailwind.css -o src/tailwind.output.css --watch",
-        "prestart": "npm run build:tailwind",
-        "prebuild": "npm run build:tailwind",
+        "build:css": "postcss src/tailwind.css -o src/tailwind.output.css",
+        "build:css:watch": "postcss src/tailwind.css -o src/tailwind.output.css --watch",
+        "prestart": "npm run build:css",
+        "prebuild": "npm run build:css",
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
@@ -58,6 +58,7 @@
         ]
     },
     "devDependencies": {
+        "@fullhuman/postcss-purgecss": "^2.3.0",
         "gh-pages": "^2.2.0",
         "postcss-cli": "^7.1.2",
         "stylelint-config-recommended": "^3.0.0"

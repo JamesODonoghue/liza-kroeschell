@@ -15,6 +15,24 @@ export const Testimonials = () => {
                     <Slide index={0}>
                         <div className="max-w-xl mx-auto text-center">
                             <div className="sm:text-2xl text-teal-800 italic">
+                                "High energy workouts with easy routines to follow that keep the kids engaged."
+                            </div>
+                            <div className="uppercase text-indigo-700 font-bold mt-8 tracking-widest">Mridula</div>
+                            <div className="text-gray-600"> Parent</div>
+                        </div>
+                    </Slide>
+                    <Slide index={1}>
+                        <div className="max-w-xl mx-auto text-center">
+                            <div className="sm:text-2xl text-teal-800 italic">
+                                "I love your positive, warm energy and dance teaching talent."
+                            </div>
+                            <div className="uppercase text-indigo-700 font-bold mt-8 tracking-widest">Evelyn</div>
+                            <div className="text-gray-600"> Parent</div>
+                        </div>
+                    </Slide>
+                    <Slide index={2}>
+                        <div className="max-w-xl mx-auto text-center">
+                            <div className="sm:text-2xl text-teal-800 italic">
                                 "The 5-6 year olds at our public school in San Francisco absolutely cherished our dance
                                 classes with Ms. Liza. She created a fun environment for students to actively engage and
                                 express themselves. So many smiles and an energy of pure joy filled the room."
@@ -25,45 +43,25 @@ export const Testimonials = () => {
                             <div className="text-gray-600"> Kindergarten teacher</div>
                         </div>
                     </Slide>
-                    <Slide index={1}>
+                    <Slide index={3}>
                         <div className="max-w-xl mx-auto text-center">
                             <div className="sm:text-2xl text-teal-800 italic">
-                                "High energy workouts with easy routines to follow that keep the kids engaged."
-                            </div>
-                            <div className="uppercase text-indigo-700 font-bold mt-8 tracking-widest">Mridula</div>
-                            <div className="text-gray-600"> Parent</div>
-                        </div>
-                    </Slide>
-                    <Slide index={2}>
-                        <div className="max-w-xl mx-auto text-center">
-                            <div className="sm:text-2xl text-teal-800 italic">
-                                "My child has builded more self-confidence and belief in herself by dancing with Ms.
+                                "My child has built more self-confidence and belief in herself by dancing with Ms.
                                 Liza!"
                             </div>
                             <div className="uppercase text-indigo-700 font-bold mt-8 tracking-widest">Huihong</div>
                             <div className="text-gray-600">Parent</div>
                         </div>
                     </Slide>
-                    <Slide index={3}>
-                        <div className="max-w-xl mx-auto text-center">
-                            <div className=" text-teal-800 italic">
-                                "My kids look forward to the classes every day. Before Ms. Liza held these online
-                                classes, my kids were watching her Waving Flag video on Youtube. Having tried some of
-                                the dance moves, I can see why my kids would enjoy Ms. Liza's classes!{' '}
-                                <b className="font-semibold">The dance routines are creative, manageable, and fun,</b>{' '}
-                                not to mention the sessions give the kids the exercise they need. Many thanks to Ms.
-                                Liza for continuing to teach kids how to dance during this pandemic!"
-                            </div>
-                            <div className="uppercase text-indigo-700 font-bold mt-8 tracking-widest">Christie</div>
-                            <div className="text-gray-600"> Parent</div>
-                        </div>
-                    </Slide>
                     <Slide index={4}>
                         <div className="max-w-xl mx-auto text-center">
-                            <div className="sm:text-2xl text-teal-800 italic">
-                                "I love your positive, warm energy and dance teaching talent."
+                            <div className=" text-teal-800 italic">
+                                "My kids look forward to the classes every day. Having tried some of the dance moves, I
+                                can see why my kids would enjoy Ms. Liza's classes! The dance routines are creative,
+                                manageable, and fun, not to mention the sessions give the kids the exercise they need.
+                                Many thanks to Ms. Liza for continuing to teach kids how to dance during this pandemic!"
                             </div>
-                            <div className="uppercase text-indigo-700 font-bold mt-8 tracking-widest">Evelyn</div>
+                            <div className="uppercase text-indigo-700 font-bold mt-8 tracking-widest">Christie</div>
                             <div className="text-gray-600"> Parent</div>
                         </div>
                     </Slide>
