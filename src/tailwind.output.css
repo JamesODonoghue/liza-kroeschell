@@ -420,10 +420,22 @@ img {
   background-color: rgba(255, 255, 255, var(--bg-opacity));
 }
 
+.bg-gray-500{
+  --bg-opacity: 1;
+  background-color: #a0aec0;
+  background-color: rgba(160, 174, 192, var(--bg-opacity));
+}
+
 .bg-teal-100{
   --bg-opacity: 1;
   background-color: #e6fffa;
   background-color: rgba(230, 255, 250, var(--bg-opacity));
+}
+
+.bg-indigo-300{
+  --bg-opacity: 1;
+  background-color: #a3bffa;
+  background-color: rgba(163, 191, 250, var(--bg-opacity));
 }
 
 .bg-indigo-600{
@@ -456,6 +468,10 @@ img {
 
 .rounded-lg{
   border-radius: 0.5rem;
+}
+
+.rounded-full{
+  border-radius: 9999px;
 }
 
 .border-none{
@@ -603,6 +619,10 @@ img {
   max-width: 100%;
 }
 
+.outline-none{
+  outline: 0;
+}
+
 .focus\:outline-none:focus{
   outline: 0;
 }
@@ -679,6 +699,10 @@ img {
 
 .shadow-2xl{
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.shadow-outline{
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
 }
 
 .hover\:shadow-lg:hover{
@@ -828,6 +852,28 @@ img {
     transform: none;
     animation-timing-function: cubic-bezier(0,0,0.2,1);
   }
+}
+
+.carousel__dot {
+  height: 1rem;
+  width: 1rem;
+  --bg-opacity: 1;
+  background-color: #a0aec0;
+  background-color: rgba(160, 174, 192, var(--bg-opacity));
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  transition-duration: 200ms;
+  border-radius: 9999px;
+}
+
+.carousel__dot:focus {
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+  outline: 0;
+}
+
+.carousel__dot--selected {
+  --bg-opacity: 1;
+  background-color: #a3bffa;
+  background-color: rgba(163, 191, 250, var(--bg-opacity));
 }
 
 .rounded-b-50 {
