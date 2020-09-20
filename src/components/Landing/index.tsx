@@ -4,8 +4,8 @@ import headshot from 'assets/photos/headshot_small.jpg';
 export const Landing = () => {
     useEffect(() => {}, []);
     return (
-        <section className="flex max-w-6xl mx-auto">
-            <div className="max-w-md mx-auto px-8 sm:py-16 sm:max-w-xl lg:max-w-full lg:w-1/2">
+        <section className="flex max-w-6xl mx-auto mb-12">
+            <div className="max-w-md mx-auto px-8 sm:py-24 sm:max-w-xl lg:max-w-full lg:w-1/2">
                 <div className="xl:max-w-xl xl:ml-auto">
                     <img
                         className="mt-6 mb-6 rounded-lg shadow-2xl sm:h-64 sm:w-full sm:object-cover sm:object-center lg:hidden lg:w-1/2"
@@ -16,7 +16,7 @@ export const Landing = () => {
                         <h1 className="mb-6 text-4xl font-bold text-gray-900 lg:text-5xl">
                             Hi, I'm Liza!{' '}
                             <div>
-                                I'm a dance teacher living in <div>San Francisco.</div>
+                                I teach dance in <div>San Francisco.</div>
                             </div>
                         </h1>
                         <div className="text-gray-700 sm:text-xl mt-16 max-w-md">
@@ -31,7 +31,7 @@ export const Landing = () => {
                             </svg> */}
                         {/* <div className="pattern"></div> */}
                         <a
-                            className="mt-8 inline-block rounded-md bg-indigo-700 hover:bg-indigo-500 transition duration-200 hover:shadow-lg text-white px-5 py-3 uppercase font-semibold tracking-wider"
+                            className="mt-8 min-w-full sm:text-xl sm:min-w-0 text-center inline-block rounded-md bg-indigo-700 hover:bg-indigo-500 transition duration-200 hover:shadow-lg text-white px-5 py-3 tracking-wider"
                             href="mailto:liza.kroeschell@gmail.com?subject=Zoom Private Class"
                         >
                             Schedule a private class
@@ -39,7 +39,7 @@ export const Landing = () => {
                     </div>
                 </div>
             </div>
-            <div className="hidden lg:block lg:w-1/2 px-8 py-16">
+            <div className="hidden lg:block lg:w-1/2 px-8 py-24">
                 <img className="rounded-lg shadow-2xl" alt={'profile_image'} src={headshot}></img>
             </div>
         </section>

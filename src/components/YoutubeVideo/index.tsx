@@ -46,4 +46,12 @@ export const YoutubeVideo = ({ embedLink, name }: IVideoProps) => (
             className="max-w-full box-border sm:mr-8 border-none rounded-md overflow-hidden shadow-xl max-w-1/2"
         ></ReactPlayer>
     </div>
+    // <div className="mb-12 max-w-full bg-white rounded-md overflow-hidden">
+    //     <ReactPlayer
+    //         url={`https://www.youtube.com/watch?v=${embedLink}`}
+    //         light={`https://img.youtube.com/vi/${embedLink.split('?')[0]}/sddefault.jpg`}
+    //         className="max-w-full box-border border-none max-w-1/2"
+    //     ></ReactPlayer>
+    //     <h2 className="text-indigo-800 text-xl p-4 uppercase tracking-wider font-semibold">{name}</h2>
+    // </div>
 );
