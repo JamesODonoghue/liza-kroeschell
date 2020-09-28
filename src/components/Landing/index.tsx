@@ -19,9 +19,12 @@ export const Landing = () => {
                                 I teach dance in <div>San Francisco.</div>
                             </div>
                         </h1>
+                        {/* <h1 className="mb-6 text-4xl font-bold leading-tight text-gray-900 sm:text-6xl">
+                            Dance like someone's watching. 
+                        </h1>
                         <div className="text-gray-700 sm:text-xl mt-16 max-w-md">
                             <p>I teach private lessons for children on Zoom!</p>
-                        </div>
+                        </div> */}
                         {/* <svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
                                 <g className="fill-current text-indigo-800" fill="none" fill-rule="evenodd">
                                     <g>

@@ -18,7 +18,7 @@ export const Testimonials = () => {
                                 "High energy workouts with easy routines to follow that keep the kids engaged."
                             </div>
                             <div className="uppercase text-indigo-700 font-bold mt-8 tracking-widest">Mridula</div>
-                            <div className="text-gray-600"> Parent</div>
+                            <div className="text-gray-700"> Parent</div>
                         </div>
                     </Slide>
                     <Slide index={1}>
@@ -27,7 +27,7 @@ export const Testimonials = () => {
                                 "I love your positive, warm energy and dance teaching talent."
                             </div>
                             <div className="uppercase text-indigo-700 font-bold mt-8 tracking-widest">Evelyn</div>
-                            <div className="text-gray-600"> Parent</div>
+                            <div className="text-gray-700"> Parent</div>
                         </div>
                     </Slide>
                     <Slide index={2}>
@@ -40,7 +40,7 @@ export const Testimonials = () => {
                             <div className="uppercase text-indigo-700 font-bold mt-8 tracking-widest">
                                 Colleen Wentworth
                             </div>
-                            <div className="text-gray-600"> Kindergarten teacher</div>
+                            <div className="text-gray-700"> Kindergarten teacher</div>
                         </div>
                     </Slide>
                     <Slide index={3}>
@@ -50,7 +50,7 @@ export const Testimonials = () => {
                                 Liza!"
                             </div>
                             <div className="uppercase text-indigo-700 font-bold mt-8 tracking-widest">Huihong</div>
-                            <div className="text-gray-600">Parent</div>
+                            <div className="text-gray-700">Parent</div>
                         </div>
                     </Slide>
                     <Slide index={4}>
@@ -62,7 +62,7 @@ export const Testimonials = () => {
                                 Many thanks to Ms. Liza for continuing to teach kids how to dance during this pandemic!"
                             </div>
                             <div className="uppercase text-indigo-700 font-bold mt-8 tracking-widest">Christie</div>
-                            <div className="text-gray-600"> Parent</div>
+                            <div className="text-gray-700"> Parent</div>
                         </div>
                     </Slide>
                 </Slider>
@@ -115,7 +115,7 @@ export const Testimonials = () => {
                         themselves. So many smiles and an energy of pure joy filled the room."
                     </div>
                     <div className="uppercase text-indigo-700 font-bold mt-8">Colleen Wentworth</div>
-                    <div className="text-gray-600"> Kindergarten teacher</div>
+                    <div className="text-gray-700"> Kindergarten teacher</div>
                 </div>
                 <div className="max-w-xl mx-auto ">
                     <div className="sm:text-2xl text-teal-800 italic">
@@ -124,7 +124,7 @@ export const Testimonials = () => {
                         themselves. So many smiles and an energy of pure joy filled the room."
                     </div>
                     <div className="uppercase text-indigo-700 font-bold mt-8">Colleen Wentworth</div>
-                    <div className="text-gray-600"> Kindergarten teacher</div>
+                    <div className="text-gray-700"> Kindergarten teacher</div>
                 </div>
             </Carousel> */}
         </section>

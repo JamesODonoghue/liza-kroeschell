@@ -2,10 +2,10 @@ import React from 'react';
 import creativity from 'assets/photos/nagata_three_small.jpg';
 export const Creativity = () => {
     return (
-        <div className="max-w-full bg-teal-300 text-blue-900">
+        <div className="max-w-full bg-indigo-700 text-white">
             <section className="max-w-6xl mx-auto pt-64 ">
                 <h1 className="max-w-xl lg:max-w-5xl lg:text-5xl text-4xl mx-auto mb-16 px-8 lg:p-0 font-semibold ">
-                    Teaching <span className="text-white">philosophy</span>
+                    Teaching <span className="text-teal-300">philosophy</span>
                 </h1>
                 <div className="flex">
                     <div className="mx-auto sm:max-w-xl lg:w-1/2">

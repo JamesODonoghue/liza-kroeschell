@@ -2,8 +2,8 @@ import React from 'react';
 import pose from 'assets/photos/afy_pose_small.jpg';
 export const Confidence = () => {
     return (
-        <div className="max-w-full bg-teal-300 text-blue-900">
-            <section className="max-w-6xl mx-auto flex pt-16">
+        <div className="max-w-full bg-teal-300 text-indigo-800">
+            <section className="max-w-6xl mx-auto flex pt-64">
                 <div className="hidden lg:block lg:w-1/2 lg:p-16">
                     <img className="rounded-lg shadow-2xl" alt={'pose'} src={pose}></img>
                 </div>

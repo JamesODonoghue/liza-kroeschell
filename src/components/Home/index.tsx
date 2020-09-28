@@ -17,6 +17,7 @@ export const Home = () => {
             {/* <About /> */}
             {/* <AboutNext /> */}
             <Creativity />
+            <div className="h-16 lg:h-24 rounded-b-50 max-w-full w-screen bg-indigo-700 absolute"></div>
             <Confidence />
             <div className="h-16 lg:h-24 rounded-b-50 max-w-full w-screen bg-teal-300 absolute"></div>
             <Experience />
